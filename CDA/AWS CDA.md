@@ -126,10 +126,11 @@
 * Try parallel scans, rather than default sequential scan
 * Avoid using scan operations if you can: design tables in a way that you can use the Query, Get or BatchItem APIs
 
+**Dynamodb Provisioned Throughput**
 
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ3MjA5LDc1Mzk3MTkyMywxMDkzOT
-U1ODUyXX0=
+eyJoaXN0b3J5IjpbMTA2OTk3NTc1Myw3NTM5NzE5MjMsMTA5Mz
+k1NTg1Ml19
 -->
