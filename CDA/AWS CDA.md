@@ -311,15 +311,17 @@ Wasted resources if most of the data is never read||
 * ***Throughput***
 * Provision Throughput is measured in Capacity Units
 * 1 x Write Capacity Unit = 1 x 1 KB Write per second
-* 1 x Read Capacity Unit -
+* 1 x Read Capacity Unit = 1 x 4 KB Strongly Consistent Read OR 
+	*                     2 x 4 KB Eventually consistent Reads per seconds
+* 
 
 
 * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODUyMjAwOSwxMjI0MTIzOTgwLDk3OD
-U3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5
-MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNj
-k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbMzI4MzY3NTUsMTIyNDEyMzk4MCw5Nzg1Nz
+QzMjksLTE4NDMwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1OTMs
+LTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OT
+c1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
