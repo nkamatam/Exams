@@ -323,6 +323,8 @@ Wasted resources if most of the data is never read||
 	* Round it to the nearest whole number.
 	* Multiply by the number of reads / sec
 	* [Remember for READs : Strongly = 2 x Eventual]
+	* DAX provides in-memory caching for SynamodB tables
+	* Imporves response times for **Eventually Consistent** reads only,
 	* 
 * 
 
@@ -331,9 +333,9 @@ Wasted resources if most of the data is never read||
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyNjY2OTc1LDE0NDE5ODg0NzksMTIyND
-EyMzk4MCw5Nzg1NzQzMjksLTE4NDMwMDY2NywtMTE5MDc2MzU5
-NSw2MTc4MTk1OTMsLTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3ND
-ExODgxMSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUy
-XX0=
+eyJoaXN0b3J5IjpbLTE2MjgwNjExMTgsMTQ0MTk4ODQ3OSwxMj
+I0MTIzOTgwLDk3ODU3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYz
+NTk1LDYxNzgxOTU5MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNT
+c0MTE4ODExLDEwNjk5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4
+NTJdfQ==
 -->
