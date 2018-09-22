@@ -243,13 +243,14 @@
 |Advantages|Disadvantages  |
 |--|--|
 |Only requested data is Cached; Avoids filling up the Cache with useless data|Cache miss penalty:Initial request - Query to the database - Writing of the data to the cache|
+|Note failures are not fatal. A new empty node will just have a lot of Cache misess initially|Stale data - if data is only updated when there is a cache miss, it can become stale. Doen't automatically update if teh data in the database changes|
 
 	* 
 
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDk0MzI0NSw2MTc4MTk1OTMsLTI1MT
+eyJoaXN0b3J5IjpbMTA2OTE3NzI4Miw2MTc4MTk1OTMsLTI1MT
 c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
 LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
