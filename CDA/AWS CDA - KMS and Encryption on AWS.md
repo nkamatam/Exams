@@ -15,9 +15,13 @@
 	* Create a new Group "myKMSGroup"
 	* Give the Group the admin access 
 	* Add a user "myKeyManager"
-		* Person managing the keys permission (But does not ha
+	* Add the user to the group
+		* Person managing the keys permission (But does not have permissions to do Encrption/Decrypt)
+	* add user myEncryptor
+	* Add the user to the group
+	* 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTk0NjYzMSwtMTAyNjkyOTE5LDg4Mz
-I0ODYwMSwxNjUxMjk2NDg5XX0=
+eyJoaXN0b3J5IjpbMTQwOTE1OTk5LC0xMDI2OTI5MTksODgzMj
+Q4NjAxLDE2NTEyOTY0ODldfQ==
 -->
