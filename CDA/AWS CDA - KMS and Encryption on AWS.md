@@ -10,8 +10,13 @@
 	* Amazon Work Mail
 	* Relation Database Service
 * Makes it easy to encrypt your data with encryption keys that you manage
-* 
+* Lab:
+	* Goto IAM
+	* Create a new Group "myKMSGroup"
+	* Give the Group the admin access 
+	* 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgzMjQ4NjAxLDE2NTEyOTY0ODldfQ==
+eyJoaXN0b3J5IjpbLTEwMjY5MjkxOSw4ODMyNDg2MDEsMTY1MT
+I5NjQ4OV19
 -->
