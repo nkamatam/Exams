@@ -329,7 +329,13 @@ Wasted resources if most of the data is never read||
 	* If the item that you are requesting for is in the Cache, it will return ot otherwise it will do a **Eventually Consistent** read on the DynamoDB table.
 	* Not suitable for write-intensive applications ot applications that require Strongly Consistent reads
 	* **Elasticashe**
-	* Elas
+	* Elasticache is in-memory cache that sits between your application and database
+	* 2 different caching strategies: Lazhy loading and Wite Through
+	* Lazy loading only caches the data when it is requested
+	* Elasticache Node failures not fatal just lots of cache misess
+	* Cache miss penalty: Initail request, query database, writing to cache
+	* Avoid stale data by implementing a TTL
+	* 
 * 
 
 
@@ -337,7 +343,7 @@ Wasted resources if most of the data is never read||
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjQyMzQ0OSw0NDA1Mjg5MDEsMTQ0MT
+eyJoaXN0b3J5IjpbLTQ4NjA4MTQ3MSw0NDA1Mjg5MDEsMTQ0MT
 k4ODQ3OSwxMjI0MTIzOTgwLDk3ODU3NDMyOSwtMTg0MzAwNjY3
 LC0xMTkwNzYzNTk1LDYxNzgxOTU5MywtMjUxNzk1OTExLC0yNT
 Y1Mjc4MDksNTc0MTE4ODExLDEwNjk5NzU3NTMsNzUzOTcxOTIz
