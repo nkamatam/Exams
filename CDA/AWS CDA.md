@@ -326,7 +326,10 @@ Wasted resources if most of the data is never read||
 	* DAX provides in-memory caching for SynamodB tables
 	* Imporves response times for **Eventually Consistent** reads only,
 	* You point your application to the DAX cluster instead of the Dynamodb table
-	* 
+	* If the item that you are requesting for is in the Cache, it will return ot otherwise it will do a **Eventually Consistent** read on the DynamoDB table.
+	* Not suitable for write-intensive applications ot applications that require Strongly Consistent reads
+	* **Elasticashe**
+	* Elas
 * 
 
 
@@ -334,9 +337,9 @@ Wasted resources if most of the data is never read||
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwNTI4OTAxLDE0NDE5ODg0NzksMTIyND
-EyMzk4MCw5Nzg1NzQzMjksLTE4NDMwMDY2NywtMTE5MDc2MzU5
-NSw2MTc4MTk1OTMsLTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3ND
-ExODgxMSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUy
-XX0=
+eyJoaXN0b3J5IjpbMTM3MjQyMzQ0OSw0NDA1Mjg5MDEsMTQ0MT
+k4ODQ3OSwxMjI0MTIzOTgwLDk3ODU3NDMyOSwtMTg0MzAwNjY3
+LC0xMTkwNzYzNTk1LDYxNzgxOTU5MywtMjUxNzk1OTExLC0yNT
+Y1Mjc4MDksNTc0MTE4ODExLDEwNjk5NzU3NTMsNzUzOTcxOTIz
+LDEwOTM5NTU4NTJdfQ==
 -->
