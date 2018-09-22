@@ -25,10 +25,16 @@
 	* Give permissio to manage to myKeyManager
 	* Give permission for encruption to myEncryptor
 	* We have successfully created our CMK (Customer MasterKey)
-* The customer 
+* The customer master key
+	* alias
+	* creation date
+	* description
+	* key state
+	* Key Material (either customer provided or AWS created)
+	* Can never be exported ( Can never 
 	* 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNjM3NTQyOCwtMTAyNjkyOTE5LDg4Mz
-I0ODYwMSwxNjUxMjk2NDg5XX0=
+eyJoaXN0b3J5IjpbMzM4MTA3ODc3LC0xMDI2OTI5MTksODgzMj
+Q4NjAxLDE2NTEyOTY0ODldfQ==
 -->
