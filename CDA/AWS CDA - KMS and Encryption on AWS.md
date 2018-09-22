@@ -24,10 +24,11 @@
 	* Create a Key - myEncrypotionKey
 	* Give permissio to manage to myKeyManager
 	* Give permission for encruption to myEncryptor
-	* We have successfully created our CMK (Customer MasterKey
+	* We have successfully created our CMK (Customer MasterKey)
+* The customer 
 	* 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1MjE2ODcwLC0xMDI2OTI5MTksODgzMj
-Q4NjAxLDE2NTEyOTY0ODldfQ==
+eyJoaXN0b3J5IjpbMTQxNjM3NTQyOCwtMTAyNjkyOTE5LDg4Mz
+I0ODYwMSwxNjUxMjk2NDg5XX0=
 -->
