@@ -206,12 +206,16 @@
 	* Provides in-memory caching for DynamoDB tables
 	* Improves response times for Eventually consistent Reads only
 	* You point your API to the DAX cluster instead of the DynamoDB table
-	* If the itesm that you are querying is in the cache(Cache Hit), then DAX will return it otherwise, it will perform eventually consistent read operation on your DynamoDB table
+	* If the itesm that you are querying is in the cache(Cache Hit), then DAX will return it otherwise, it will perform eventually consistent read (get-item) operation on your DynamoDB table
 	* Not suitable for Write intensive applications or apps that require Strongly Consistent Reads
+
+### Elasticache
+* Elasticache - In memory cache in the cloud
+* Improves performance of web applications, allowing you to retrieve data from fast
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzE2NjQ2Niw2MTc4MTk1OTMsLTI1MT
+eyJoaXN0b3J5IjpbLTkyNDMzMjE1NCw2MTc4MTk1OTMsLTI1MT
 c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
 LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
