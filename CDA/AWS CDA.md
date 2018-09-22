@@ -257,10 +257,12 @@
 |Disadvantages|Advantages|
 |--|--|
 |Write penalty: Every write involes a write to the cache as well as a write to the database| Data in the Cache never stale|
-|If a node fails and a new one is spun up, data is missing until added ot updated in the datbase(mitigate by implementing Lazy loading in conjunction with wtite-throu
+|If a node fails and a new one is spun up, data is missing until added ot updated in the datbase(mitigate by implementing Lazy loading in conjunction with wtite-through)| Users are generally more tolerant of additional latency when updating data than when retrieving it|
+Wasted resources if most of the data is never read||
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTcyOTQ4MDIsLTE4NDMwMDY2NywtMT
-E5MDc2MzU5NSw2MTc4MTk1OTMsLTI1MTc5NTkxMSwtMjU2NTI3
-ODA5LDU3NDExODgxMSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMD
-kzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbOTc4NTc0MzI5LC0xODQzMDA2NjcsLTExOT
+A3NjM1OTUsNjE3ODE5NTkzLC0yNTE3OTU5MTEsLTI1NjUyNzgw
+OSw1NzQxMTg4MTEsMTA2OTk3NTc1Myw3NTM5NzE5MjMsMTA5Mz
+k1NTg1Ml19
 -->
