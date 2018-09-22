@@ -297,11 +297,16 @@ Wasted resources if most of the data is never read||
 * Query operation finds items in a table using only the Primary Key attribute
 * You provide the Primary Key name and a distinct value to search for
 * A Scan operation examines every item in the table
+* By default, returns all data atributes
+* Use the ```ProjectionExpression```parameter to refine the results
+* Query results are always sorted by the Sort Key (if there is one)
+* Sorted in asceding order
+* Set `
 * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NjU2OTY4OCwxMjI0MTIzOTgwLDk3OD
+eyJoaXN0b3J5IjpbLTE4MjY1MjE3NywxMjI0MTIzOTgwLDk3OD
 U3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5
 MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNj
 k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
