@@ -160,11 +160,13 @@
 		* Round up to the nearest whole number, each READ will need 1 x RCU per read operation
 		* Multiplied by the number of reads/second = 80 
 		* Divide 80 / 2 = 40 (RCUs for eventually consistent READs
-		* 
 
+* **Write Capacity Units Calculation**
+	* You want to write 100 items/sec
+	* Each item is 512 bytes
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTI0NDk5NiwtMjU2NTI3ODA5LDU3ND
-ExODgxMSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUy
-XX0=
+eyJoaXN0b3J5IjpbLTE5OTEwMjExMjYsLTI1NjUyNzgwOSw1Nz
+QxMTg4MTEsMTA2OTk3NTc1Myw3NTM5NzE5MjMsMTA5Mzk1NTg1
+Ml19
 -->
