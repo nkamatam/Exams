@@ -198,11 +198,15 @@
 * Retrieval of data from DAX reduces the READ load on the DynamoDB database
 * May be able to reduce provisioned READ capacity
 * **What is it not suitable for**:
-	* Caters for Eventually Consistent Reads only - so not suitable for Strong .
+	* Caters for Eventually Consistent Reads only - so not suitable for Strong Consistent READS.
+	* Write intensive applications
+	* Applications that do not perform many READ operations
+	* Applications that do not require micro second response times
 	* 
+	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ4NTY5MzgsNjE3ODE5NTkzLC0yNT
-E3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1
-Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
+eyJoaXN0b3J5IjpbMTg0NzcxNjM3Niw2MTc4MTk1OTMsLTI1MT
+c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
+LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
