@@ -117,7 +117,13 @@
 * A Scan operation examines every item in the table
 * By default returns every item in the table
 * By default returns all data attributes
+* Query results are always sorted by the sort key
+* Sorted in ASC order
+* Set ScanIndexForward parameter to _false_ to reverse the order queries only
+* Query operation is in-general more efficient than a Scan operation
+* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbNjkyNjE3Mzg3LDc1Mzk3MTkyMywxMDkzOT
+U1ODUyXX0=
 -->
