@@ -216,11 +216,12 @@
 	* Ex: Application requesting data for your popular products
 	* Takes the load off your databases
 	* Good if your database is particularly read-heavy and the data does not change very often
-	* 
+* Elasticache Benefits and Use Casess
+	* Improves performance for read-heavy workloads (eg: Social Networki
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjI5MDA3NCw2MTc4MTk1OTMsLTI1MT
+eyJoaXN0b3J5IjpbMTA1OTU4NjE3MCw2MTc4MTk1OTMsLTI1MT
 c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
 LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
