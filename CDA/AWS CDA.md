@@ -172,10 +172,13 @@
 
 **DynamoDB Provisioned Throughout - Exam Tips**
 * Provisioned Througput is a measure in Capacity Units
-* 1 x 
+* 1 x WCU = 1 x 1 KB Write /Sec
+* 1 x RCU = 1 x 4 KB Read/Sec( Strongly Consistent)
+*  1 x RCU = 2 x 4 KB Read/Sec( Eventually Consistent)
+* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjMxMTU5MDksLTI1NjUyNzgwOSw1Nz
-QxMTg4MTEsMTA2OTk3NTc1Myw3NTM5NzE5MjMsMTA5Mzk1NTg1
-Ml19
+eyJoaXN0b3J5IjpbLTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3ND
+ExODgxMSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUy
+XX0=
 -->
