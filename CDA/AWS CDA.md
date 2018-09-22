@@ -264,15 +264,21 @@ Wasted resources if most of the data is never read||
 * In-memory cache sits between your application and database
 * 2 different caching strategies: Lazy loading and Write Through
 * Lazy Loading only caches the data when it is requested
-* Elasticache Node failures not fatal, just lots of cache misses
-* Cache miss penalty: Initial request, query database, writing to cache
+* Elasticache Node failures not fatal, just lots of cache misses (LL)
+* Cache miss penalty: Initial request, query database, writing to cache (LL)
 * Avoid stale data by implementing a TTL
+* Write Through strategy writes data into the cache whenever there is a cahnge to the database
+* Data is never stale
+* Write penalty: Each write involves a write to the cache
+* Elasticache node failure means that data is missing until added or updated in the databae
+* Wasted resouves if most of the data is never used
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzY3MzIyNSw5Nzg1NzQzMjksLTE4ND
-MwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1OTMsLTI1MTc5NTkx
-MSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUzLDc1Mz
-k3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbLTEwOTY1NTE5NDQsOTc4NTc0MzI5LC0xOD
+QzMDA2NjcsLTExOTA3NjM1OTUsNjE3ODE5NTkzLC0yNTE3OTU5
+MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1Myw3NT
+M5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
