@@ -166,10 +166,13 @@
 	* Each item is 512 bytes in size
 	* First, findout how many capacity units per each WRITE
 	* Size of each item /1 KB ( for WCUs)
-		* 512 bytes/1KB = 0.5 
+		* 512 bytes/1KB = 0.5
+		* Round to the nearest whole number => 1 x WCU per each write opearation
+		* Multiplied with the number of writes (100 items/sec as needed in the problem) = 100 WCU
+		* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTQzNjQ0OSwtMjU2NTI3ODA5LDU3ND
+eyJoaXN0b3J5IjpbMTA0MzYxNzMzOCwtMjU2NTI3ODA5LDU3ND
 ExODgxMSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUy
 XX0=
 -->
