@@ -187,10 +187,12 @@
 * DAX is a fully managed, clustered in-memory cache for DynamoDB
 * Deliveres upto 10 times the read performance improvement
 * Micro second performance for millions of requests per second
-* Ideal for read-heavy and bursty worklo
+* Ideal for read-heavy and bursty workloads
+* Eg: Auction Applications, Gaming and Retail sites during Black Friday Events
+* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODk3NTgwNiw2MTc4MTk1OTMsLTI1MT
-c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
-LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbNzQ4NDYwODMzLDYxNzgxOTU5MywtMjUxNz
+k1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNjk5NzU3NTMs
+NzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
 -->
