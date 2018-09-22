@@ -280,12 +280,14 @@ Wasted resources if most of the data is never read||
 * Suports both document and key-value data models
 * Supported document formats are JSON, HTML, XML
 * 2 types of Primary Keys: Partition Key and combination of Partition Key + Sort Key (Composite Key)
-* 
+* 2 Consistency models: Strong Consistent/Eventually Consistent
+* Access is coltrolled using IAM policies
+* Fine grained access control using IAM Condition parameter ```dynamodb:LeadingKeys``` to allow users to access only the items where the partition key value matches their user 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDEyMzk4MCw5Nzg1NzQzMjksLTE4ND
-MwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1OTMsLTI1MTc5NTkx
-MSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUzLDc1Mz
-k3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbMTc3MzQzMjI4MiwxMjI0MTIzOTgwLDk3OD
+U3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5
+MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNj
+k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
 -->
