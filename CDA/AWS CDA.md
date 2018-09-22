@@ -217,11 +217,15 @@
 	* Takes the load off your databases
 	* Good if your database is particularly read-heavy and the data does not change very often
 * Elasticache Benefits and Use Casess
-	* Improves performance for read-heavy workloads (eg: Social Networki
+	* Improves performance for read-heavy workloads (eg: Social Networking, Gaming, Media Sharing, Q&A portals)
+	* Frequently accessed data is stored locally for low-latency access improving the overall performance of your aplication
+	* Also good to compute heavy workloads
+		* Ex: Recomendation Engines
+* Can be used to store results of I/O intensive database queries ot output of compute-intensive calculations
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTU4NjE3MCw2MTc4MTk1OTMsLTI1MT
+eyJoaXN0b3J5IjpbMTU2ODc5Mzc3MSw2MTc4MTk1OTMsLTI1MT
 c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
 LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
