@@ -276,11 +276,15 @@ Wasted resources if most of the data is never read||
 ### **DynamoDB Summary**
 
 * Amazon DynamoDB is a low-latency NoSQL database
-* Consists of 
+* Consists of Tables, Items and Attributes
+* Suports both document and key-value data models
+* Supported document formats are JSON, HTML, XML
+* 2 types of Primary Keys: Partition Key and combination of Partition Key + Sort Key (Composite Key)
+* 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDI0NzMxNiw5Nzg1NzQzMjksLTE4ND
+eyJoaXN0b3J5IjpbMTIyNDEyMzk4MCw5Nzg1NzQzMjksLTE4ND
 MwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1OTMsLTI1MTc5NTkx
 MSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUzLDc1Mz
 k3MTkyMywxMDkzOTU1ODUyXX0=
