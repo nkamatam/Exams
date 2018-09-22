@@ -138,10 +138,13 @@
 * DynamoDB Example Configuration
 	* Table with 5 x RCU and 5 x WRC
 	* This configuration will be able to perform
-		* 5 x 4KB 
+		* 5 x 4KB Strongly Consistent Reads = 20KB/Sec
+		* Twice as many Eventually Consistent = 40KB/Sec
+		* 5 x 1KB writes = 5 KB/Sec
+		* If your application consumes more data, it will consume more 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTYwNDU2OTYsNTc0MTE4ODExLDEwNj
-k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbLTQ4Mjk5MjIxNSw1NzQxMTg4MTEsMTA2OT
+k3NTc1Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
