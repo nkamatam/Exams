@@ -342,14 +342,18 @@ Wasted resources if most of the data is never read||
 	* Elasticashe node failure means that data is missing until added or updated in the database
 	* Wasted resources if most of the data is never used
 	* 
-* **D
+* **DynamoDB Exam**
+* You can delete Global Secondary Index at any time.
+* Your application is storing customer order data in DynamoDB. Which of the following pairs of attributes would make the best composite key to allow you to query DynamoDB efficiently?
+	* CustomerID + OrderDate
+* 
 
 
 * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDQxMDkwNCw5NjE1Nzg4MjQsNDQwNT
+eyJoaXN0b3J5IjpbMTA1NzY1NjU4MCw5NjE1Nzg4MjQsNDQwNT
 I4OTAxLDE0NDE5ODg0NzksMTIyNDEyMzk4MCw5Nzg1NzQzMjks
 LTE4NDMwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1OTMsLTI1MT
 c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
