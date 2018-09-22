@@ -347,18 +347,17 @@ Wasted resources if most of the data is never read||
 * Your application is storing customer order data in DynamoDB. Which of the following pairs of attributes would make the best composite key to allow you to query DynamoDB efficiently?
 	* CustomerID + OrderDate
 * Relook at the computation for WU adn RU
-* You can have _multiple(2?)_ Global Secondary Indexes for a Dynamodb table
-* ```batch-get-item``` is a sigular in a API call and not ```batch-get-items```
-* 
+* you can create one or more global secondary indexes and issue `Query` requests against these indexes.
+* Learn to spell : ```batch-get-item``` is a sigular in a API call and not ```batch-get-items```
 
 
 * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk5NTI5NzUsOTYxNTc4ODI0LDQ0MD
-UyODkwMSwxNDQxOTg4NDc5LDEyMjQxMjM5ODAsOTc4NTc0MzI5
-LC0xODQzMDA2NjcsLTExOTA3NjM1OTUsNjE3ODE5NTkzLC0yNT
-E3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1
-Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
+eyJoaXN0b3J5IjpbMjI5NDg4Nzg4LC0xOTI5OTUyOTc1LDk2MT
+U3ODgyNCw0NDA1Mjg5MDEsMTQ0MTk4ODQ3OSwxMjI0MTIzOTgw
+LDk3ODU3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYzNTk1LDYxNz
+gxOTU5MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODEx
+LDEwNjk5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
 -->
