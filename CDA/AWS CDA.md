@@ -273,12 +273,15 @@ Wasted resources if most of the data is never read||
 * Elasticache node failure means that data is missing until added or updated in the databae
 * Wasted resouves if most of the data is never used
 
+### **DynamoDB Summary**
 
+* Amazon DynamoDB is a low-latency NoSQL database
+* Consists of 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTY1NTE5NDQsOTc4NTc0MzI5LC0xOD
-QzMDA2NjcsLTExOTA3NjM1OTUsNjE3ODE5NTkzLC0yNTE3OTU5
-MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1Myw3NT
-M5NzE5MjMsMTA5Mzk1NTg1Ml19
+eyJoaXN0b3J5IjpbLTYyNDI0NzMxNiw5Nzg1NzQzMjksLTE4ND
+MwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1OTMsLTI1MTc5NTkx
+MSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUzLDc1Mz
+k3MTkyMywxMDkzOTU1ODUyXX0=
 -->
