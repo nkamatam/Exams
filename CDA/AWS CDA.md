@@ -222,10 +222,19 @@
 	* Also good to compute heavy workloads
 		* Ex: Recomendation Engines
 * Can be used to store results of I/O intensive database queries ot output of compute-intensive calculations
+* 2 Types of Elasticache
+	* Memcached
+		* Widely adopted memory object caching system
+		* Multithreaded
+		* No multi-AZ capability
+* Redis
+	* Open source in-memory key-value store
+	* Support more complex data structures: sorted sets adn lists 
+	* Supports Master/Slave replication and MultiAZ c
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODc5Mzc3MSw2MTc4MTk1OTMsLTI1MT
-c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
-LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbLTIwMDc1Mzc5MTIsNjE3ODE5NTkzLC0yNT
+E3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1
+Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
