@@ -11,6 +11,3 @@
 	* Relation Database Service
 * Makes it easy to encrypt your data with encryption keys that you manage
 * 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY0ODkyNywtMjA0MTMwMjU0M119
--->
