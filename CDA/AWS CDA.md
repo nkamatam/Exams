@@ -303,14 +303,17 @@ Wasted resources if most of the data is never read||
 * Sorted in asceding order
 * Set ```ScanIndexForward```parameter to false to reverse the order- this is for Queries only
 * Query operation is generally more efficient than a scan
+* Performance Improvement
+* Reduce the impact of a query or scan by seting a smaller page size which uses fewer read operations
+* Isolate scan operations to specific tables and segregate them from your mission-critical 
 
 
 * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI3NDA2NjEsMTIyNDEyMzk4MCw5Nz
-g1NzQzMjksLTE4NDMwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1
-OTMsLTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMD
-Y5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbMjM1MDM3OTcxLDEyMjQxMjM5ODAsOTc4NT
+c0MzI5LC0xODQzMDA2NjcsLTExOTA3NjM1OTUsNjE3ODE5NTkz
+LC0yNTE3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OT
+k3NTc1Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
