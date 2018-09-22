@@ -347,6 +347,7 @@ Wasted resources if most of the data is never read||
 * Your application is storing customer order data in DynamoDB. Which of the following pairs of attributes would make the best composite key to allow you to query DynamoDB efficiently?
 	* CustomerID + OrderDate
 * Relook at the computation for WU adn RU
+* You can have _multiple(2?)_ Global Secondary Indexes for a Dynamodb table
 * 
 
 
@@ -354,7 +355,7 @@ Wasted resources if most of the data is never read||
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQwMDE4MTIsOTYxNTc4ODI0LDQ0MD
+eyJoaXN0b3J5IjpbLTE3MDM2NDI2MTYsOTYxNTc4ODI0LDQ0MD
 UyODkwMSwxNDQxOTg4NDc5LDEyMjQxMjM5ODAsOTc4NTc0MzI5
 LC0xODQzMDA2NjcsLTExOTA3NjM1OTUsNjE3ODE5NTkzLC0yNT
 E3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1
