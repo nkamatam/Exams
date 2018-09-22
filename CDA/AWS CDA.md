@@ -189,10 +189,11 @@
 * Micro second performance for millions of requests per second
 * Ideal for read-heavy and bursty workloads
 * Eg: Auction Applications, Gaming and Retail sites during Black Friday Events
-* 
+**How does DAX work**
+* DAX is a write-through caching service 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4NDYwODMzLDYxNzgxOTU5MywtMjUxNz
-k1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNjk5NzU3NTMs
-NzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbLTIxMzQ3MTE4NjUsNjE3ODE5NTkzLC0yNT
+E3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1
+Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
