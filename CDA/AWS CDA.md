@@ -252,10 +252,15 @@
 * Does not eliminate stale data - but helps to avoid it
 
 **Write-Through Advantages and Disdvantages**
-* Write Through - Adds or updates data to the cache whenver data is writ
+* Write Through - Adds or updates data to the cache whenver data is written to the database
+
+|Disadvantages|Advantages|
+|--|--|
+|Write penalty: Every write involes a write to the cache as well as a write to the database| Data in the Cache never stale|
+|If a node fails and a new one is spun up, data is missing until added ot updated in the datbase(mitigate by implementing Lazy loading in conjunction with wtite-throu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODMzMjUzNSwtMTg0MzAwNjY3LC0xMT
-kwNzYzNTk1LDYxNzgxOTU5MywtMjUxNzk1OTExLC0yNTY1Mjc4
-MDksNTc0MTE4ODExLDEwNjk5NzU3NTMsNzUzOTcxOTIzLDEwOT
-M5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbLTEyNTcyOTQ4MDIsLTE4NDMwMDY2NywtMT
+E5MDc2MzU5NSw2MTc4MTk1OTMsLTI1MTc5NTkxMSwtMjU2NTI3
+ODA5LDU3NDExODgxMSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMD
+kzOTU1ODUyXX0=
 -->
