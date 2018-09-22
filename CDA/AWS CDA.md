@@ -192,10 +192,12 @@
 **How does DAX work**
 * DAX is a write-through caching service - this means Data is written to the Cache as well as the backend store at the same time
 * Allows you to point your DynamoDB API calls at the DAX cluster 
-* If the items that you are querying is in the cache, DAX 
+	* Which leads me to believe that DAX cluster isa  
+* If the items that you are querying is in the cache (cache hit), DAX returns the result to the application.
+* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDAxODM1NDAsNjE3ODE5NTkzLC0yNT
+eyJoaXN0b3J5IjpbLTE4NDIyODU2MjcsNjE3ODE5NTkzLC0yNT
 E3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1
 Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
