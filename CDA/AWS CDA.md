@@ -284,11 +284,12 @@ Wasted resources if most of the data is never read||
 * Access is coltrolled using IAM policies
 * Fine grained access control using IAM Condition parameter ```dynamodb:LeadingKeys``` to allow users to access only the items where the partition key value matches their user ID.
 * 
+* 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2OTg3MTU5LDEyMjQxMjM5ODAsOTc4NT
-c0MzI5LC0xODQzMDA2NjcsLTExOTA3NjM1OTUsNjE3ODE5NTkz
-LC0yNTE3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OT
-k3NTc1Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
+eyJoaXN0b3J5IjpbLTExNDYyMTI5MTMsMTIyNDEyMzk4MCw5Nz
+g1NzQzMjksLTE4NDMwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1
+OTMsLTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMD
+Y5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
