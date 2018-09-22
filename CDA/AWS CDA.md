@@ -227,14 +227,17 @@
 		* Widely adopted memory object caching system
 		* Multithreaded
 		* No multi-AZ capability
-* Redis
-	* Open source in-memory key-value store
-	* Support more complex data structures: sorted sets adn lists 
-	* Supports Master/Slave replication and MultiAZ c
+	* Redis
+		* Open source in-memory key-value store
+		* Support more complex data structures: sorted sets and lists 
+		* Supports Master/Slave replication and MultiAZ cross AZ redundancy
+		* Better choice if you want higher availability (because of the multi AZ)
+* Caching Stra
+
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDc1Mzc5MTIsNjE3ODE5NTkzLC0yNT
-E3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1
-Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
+eyJoaXN0b3J5IjpbMTc4Nzk0NTc4Niw2MTc4MTk1OTMsLTI1MT
+c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
+LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
