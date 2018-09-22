@@ -115,8 +115,9 @@
 * A query operation finds items in a table using only the Primary Key attribute
 * You provide Primary Key name and a distinct value to search for
 * A Scan operation examines every item in the table
-* By default returns every item in the 
+* By default returns every item in the table
+* By default returns all data attributes
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTU3NjUxMCwxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
 -->
