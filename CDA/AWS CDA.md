@@ -238,12 +238,19 @@
 	* If requested data is in the cache, Elasticache retuens the data to the application
 	* If the data is not in the cache or has expired, Elasticache returns null
 	* Your application then fetches the data from the database and writes the data recieved into the cache so that it is available next time.
+
+**Lazy Loading Advantages and Disadvantages
+| |  |
+|--|--|
+|  |  |
+
+
 	* 
 
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTEwNzQ2OTMsNjE3ODE5NTkzLC0yNT
+eyJoaXN0b3J5IjpbLTE5OTAyMjE0MzgsNjE3ODE5NTkzLC0yNT
 E3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1
 Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
