@@ -301,13 +301,16 @@ Wasted resources if most of the data is never read||
 * Use the ```ProjectionExpression```parameter to refine the results
 * Query results are always sorted by the Sort Key (if there is one)
 * Sorted in asceding order
-* Set `
+* Set ```ScanIndexForward```parameter to false to reverse the order- this is for Queries only
+* Query operation is generally more efficient than a scan
+
+
 * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjY1MjE3NywxMjI0MTIzOTgwLDk3OD
-U3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5
-MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNj
-k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbLTE4NTI3NDA2NjEsMTIyNDEyMzk4MCw5Nz
+g1NzQzMjksLTE4NDMwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1
+OTMsLTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMD
+Y5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
