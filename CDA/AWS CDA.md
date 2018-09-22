@@ -178,9 +178,12 @@
 * Calculation:
 	* Calculate how many capacity units per each READ/WRITE
 	* => Size of the item / ( 4KB/1 KB)
+	* Round it to the nearest whole number.
+	* Multiply by the number of reads / sec
+	* [Remember for READs : Strongly = 2 x Eventual]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTMxNjE1MSwtMjUxNzk1OTExLC0yNT
-Y1Mjc4MDksNTc0MTE4ODExLDEwNjk5NzU3NTMsNzUzOTcxOTIz
-LDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbNjE3ODE5NTkzLC0yNTE3OTU5MTEsLTI1Nj
+UyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1Myw3NTM5NzE5MjMs
+MTA5Mzk1NTg1Ml19
 -->
