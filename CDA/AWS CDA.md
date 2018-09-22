@@ -133,12 +133,12 @@
 * 1 x  WRITE CU = 1 x 1 KB Write/Sec
 * 1 x READ CU = 
 	* 1 x Strong Consistent Read of 4KB/Sec 
-(or) 
+(or) <br>
 2 x Eventual Consistent Reads of 4 KB/Sec (Default)
 *  
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTcwNDYxMywxMDY5OTc1NzUzLDc1Mz
-k3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbLTE3NDE4MDgwMjMsMTA2OTk3NTc1Myw3NT
+M5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
