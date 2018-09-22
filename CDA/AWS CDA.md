@@ -121,10 +121,12 @@
 * Sorted in ASC order
 * Set ScanIndexForward parameter to _false_ to reverse the order - for queries only
 * Query operation is in-general more efficient than a Scan operation
-* Reduce the impact of a query or a scan by setting a smaller page size which 
+* Reduce the impact of a query or a scan by setting a smaller page size which uses fewer read operations
+* Isolate scan operations to specific tables and segretgate them from your mission critical traffic
+* Try parallel scans
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ3MjUyMjIsNzUzOTcxOTIzLDEwOT
-M5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbLTM3OTU4MDg3Niw3NTM5NzE5MjMsMTA5Mz
+k1NTg1Ml19
 -->
