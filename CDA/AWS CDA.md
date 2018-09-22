@@ -308,15 +308,18 @@ Wasted resources if most of the data is never read||
 * Isolate scan operations to specific tables and segregate them from your mission-critical traffic
 * Try Parallel scans rather than the default sequential scan
 * Avoid using scan operations if you can: design tables in a way that you can use the Query, Get or BatchGetItem APIs
-* 
+* ***Throughput***
+* Provision Throughput is measured in Capacity Units
+* 1 x Write Capacity Unit = 1 x 1 KB Write per second
+* 1 x Read Capacity Unit -
 
 
 * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxNzY5MzI2LDEyMjQxMjM5ODAsOTc4NT
-c0MzI5LC0xODQzMDA2NjcsLTExOTA3NjM1OTUsNjE3ODE5NTkz
-LC0yNTE3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OT
-k3NTc1Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
+eyJoaXN0b3J5IjpbLTMwODUyMjAwOSwxMjI0MTIzOTgwLDk3OD
+U3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5
+MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNj
+k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
 -->
