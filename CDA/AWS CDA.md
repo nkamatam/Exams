@@ -163,10 +163,13 @@
 
 * **Write Capacity Units Calculation**
 	* You want to write 100 items/sec
-	* Each item is 512 bytes
+	* Each item is 512 bytes in size
+	* First, findout how many capacity units per each WRITE
+	* Size of each item /1 KB ( for WCUs)
+		* 512 bytes/1KB = 0.5 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTEwMjExMjYsLTI1NjUyNzgwOSw1Nz
-QxMTg4MTEsMTA2OTk3NTc1Myw3NTM5NzE5MjMsMTA5Mzk1NTg1
-Ml19
+eyJoaXN0b3J5IjpbLTc2OTQzNjQ0OSwtMjU2NTI3ODA5LDU3ND
+ExODgxMSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUy
+XX0=
 -->
