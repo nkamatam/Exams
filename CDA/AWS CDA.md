@@ -287,14 +287,18 @@ Wasted resources if most of the data is never read||
 * Give you a different view of your data based on alternative Partition/Sort Keys
 * Important to understand the differences:
 
-|Local secondary Index|Global Secondary Index|
+|Local Secondary Index|Global Secondary Index|
 |--|--|
 |Must be created at when you create the table|Can create any time - at the table creation or after|
+|Same partition Key as your table| Different Partition Key|
+|Different Sort Key| Different Sort Key|
+
+* Scan 
 * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTY3NTM4MiwxMjI0MTIzOTgwLDk3OD
+eyJoaXN0b3J5IjpbLTUyNjE1NzQ1OSwxMjI0MTIzOTgwLDk3OD
 U3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5
 MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNj
 k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
