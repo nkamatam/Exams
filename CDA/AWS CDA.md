@@ -135,10 +135,13 @@
 	* 1 x Strong Consistent Read of 4KB/Sec 
 <br>(or) <br>
 2 x Eventual Consistent Reads of 4 KB/Sec (Default)
-*  
+* DynamoDB Example Configuration
+	* Table with 5 x RCU and 5 x WRC
+	* This configuration will be able to perform
+		* 5 x 4KB 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0MTAyNjMyLDU3NDExODgxMSwxMDY5OT
-c1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbLTE4NTYwNDU2OTYsNTc0MTE4ODExLDEwNj
+k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
 -->
