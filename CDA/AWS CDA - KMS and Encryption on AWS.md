@@ -22,10 +22,12 @@
 	* Add the user to the group
 	* Keys are _regional_
 	* Create a Key - myEncrypotionKey
-	* 
+	* Give permissio to manage to myKeyManager
+	* Give permission for encruption to myEncryptor
+	* We have successfully created our 
 	* 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MTc5MjI3LC0xMDI2OTI5MTksODgzMj
+eyJoaXN0b3J5IjpbNjk1NDUxMDk4LC0xMDI2OTI5MTksODgzMj
 Q4NjAxLDE2NTEyOTY0ODldfQ==
 -->
