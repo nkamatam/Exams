@@ -148,10 +148,21 @@
 	* You need stongly consistenct reads
 		* First calculate how many RCUs needed for each Read:
 		* Size of each item / 4KB = 0.75
-		* Round up to the nearest whole number, each READ will need 1 x RCU p
+		* Round up to the nearest whole number, each READ will need 1 x RCU per read operation
+		* Multiplied by the number of reads/second = 80 RCUs needed
+		* 
+* **Eventually Consistent Reads Calculation**: 
+	* Your application needs 80 items/sec.
+	* Each item is 3KB in size
+	* You need stongly consistenct reads
+		* First calculate how many RCUs needed for each Read:
+		* Size of each item / 4KB = 0.75
+		* Round up to the nearest whole number, each READ will need 1 x RCU per read operation
+		* Multiplied by the number of reads/second = 80 RCUs needed
+		* 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMTI5NDU5Miw1NzQxMTg4MTEsMTA2OT
-k3NTc1Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
+eyJoaXN0b3J5IjpbLTM0ODI1MjE1LDU3NDExODgxMSwxMDY5OT
+c1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
