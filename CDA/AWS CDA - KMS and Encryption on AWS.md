@@ -14,9 +14,10 @@
 	* Goto IAM
 	* Create a new Group "myKMSGroup"
 	* Give the Group the admin access 
-	* 
+	* Add a user "myKeyManager"
+		* Person managing the keys permission (But does not ha
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjY5MjkxOSw4ODMyNDg2MDEsMTY1MT
-I5NjQ4OV19
+eyJoaXN0b3J5IjpbLTk2OTk0NjYzMSwtMTAyNjkyOTE5LDg4Mz
+I0ODYwMSwxNjUxMjk2NDg5XX0=
 -->
