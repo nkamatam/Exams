@@ -202,11 +202,15 @@
 	* Write intensive applications
 	* Applications that do not perform many READ operations
 	* Applications that do not require micro second response times
+* **Exam Tips**
+	* Provides in-memory caching for DynamoDB tables
+	* Improves response times for Eventually consistent Reads only
+	* You point your API to the DAX cluster instead of the DynamoDB table
 	* 
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NzcxNjM3Niw2MTc4MTk1OTMsLTI1MT
+eyJoaXN0b3J5IjpbMTE2MDI4Nzc2MSw2MTc4MTk1OTMsLTI1MT
 c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
 LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
