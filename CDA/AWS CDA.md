@@ -323,6 +323,7 @@ Wasted resources if most of the data is never read||
 	* Round it to the nearest whole number.
 	* Multiply by the number of reads / sec
 	* [Remember for READs : Strongly = 2 x Eventual]
+	* 
 * 
 
 
@@ -330,8 +331,9 @@ Wasted resources if most of the data is never read||
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTk4ODQ3OSwxMjI0MTIzOTgwLDk3OD
-U3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5
-MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNj
-k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbNDkyNjY2OTc1LDE0NDE5ODg0NzksMTIyND
+EyMzk4MCw5Nzg1NzQzMjksLTE4NDMwMDY2NywtMTE5MDc2MzU5
+NSw2MTc4MTk1OTMsLTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3ND
+ExODgxMSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUy
+XX0=
 -->
