@@ -261,11 +261,18 @@
 Wasted resources if most of the data is never read||
 
 ### Elasticache Exam Tips
-* In-memory cache sits betwe
+* In-memory cache sits between your application and database
+* 2 different caching strategies: Lazy loading and Write Through
+* Lazy Loading only caches the data when it is requested
+* Elasticache Node failures not fatal, just lots of cache misses
+* Cache miss penalty: Initial request, query database, writing to cache
+* Avoid stale data by implementing a TTL
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgyNDY4MDkyLDk3ODU3NDMyOSwtMTg0Mz
-AwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5MywtMjUxNzk1OTEx
-LC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNjk5NzU3NTMsNzUzOT
-cxOTIzLDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbLTM2NzY3MzIyNSw5Nzg1NzQzMjksLTE4ND
+MwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1OTMsLTI1MTc5NTkx
+MSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUzLDc1Mz
+k3MTkyMywxMDkzOTU1ODUyXX0=
 -->
