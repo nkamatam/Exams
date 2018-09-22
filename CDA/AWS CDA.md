@@ -211,11 +211,16 @@
 
 ### Elasticache
 * Elasticache - In memory cache in the cloud
-* Improves performance of web applications, allowing you to retrieve data from fast
+* Improves performance of web applications, allowing you to retrieve data from fast inmomory cache rather than slower disk based databases.
+* Sits between your aplication and the database
+	* Ex: Application requesting data for your popular products
+	* Takes the load off your databases
+	* Good if your database is particularly read-heavy and the data does not change very often
+	* 
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDMzMjE1NCw2MTc4MTk1OTMsLTI1MT
+eyJoaXN0b3J5IjpbMTQ5NjI5MDA3NCw2MTc4MTk1OTMsLTI1MT
 c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
 LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
