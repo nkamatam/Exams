@@ -312,7 +312,17 @@ Wasted resources if most of the data is never read||
 * Provision Throughput is measured in Capacity Units
 * 1 x Write Capacity Unit = 1 x 1 KB Write per second
 * 1 x Read Capacity Unit = 1 x 4 KB Strongly Consistent Read OR 
-	*                     2 x 4 KB Eventually consistent Reads per seconds
+	*                     2 x 4 KB Eventually consistent Reads per seconds
+	* * Provisioned Througput is a measure in Capacity Units
+* 1 x WCU = 1 x 1 KB Write /Sec
+* 1 x RCU = 1 x 4 KB Read/Sec( Strongly Consistent)
+*  1 x RCU = 2 x 4 KB Read/Sec( Eventually Consistent)
+* Calculation:
+	* Calculate how many capacity units per each READ/WRITE
+	* => Size of the item / ( 4KB/1 KB)
+	* Round it to the nearest whole number.
+	* Multiply by the number of reads / sec
+	* [Remember for READs : Strongly = 2 x Eventual]
 * 
 
 
@@ -320,8 +330,8 @@ Wasted resources if most of the data is never read||
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4MzY3NTUsMTIyNDEyMzk4MCw5Nzg1Nz
-QzMjksLTE4NDMwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1OTMs
-LTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OT
-c1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbMTQ0MTk4ODQ3OSwxMjI0MTIzOTgwLDk3OD
+U3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5
+MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNj
+k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
 -->
