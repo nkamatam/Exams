@@ -232,12 +232,16 @@
 		* Support more complex data structures: sorted sets and lists 
 		* Supports Master/Slave replication and MultiAZ cross AZ redundancy
 		* Better choice if you want higher availability (because of the multi AZ)
-* Caching Stra
+* Caching Strategies
+	* 2 Strategies available: **LAzy Loading** and **Write-Through:**
+	* Lazy Loading - Loading data into the cache only when necessaty
+	* If requested data is in the cache, Elasticache retuens the data to the application
+	* If the data is not in the cache or has expired
 
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Nzk0NTc4Niw2MTc4MTk1OTMsLTI1MT
+eyJoaXN0b3J5IjpbLTcwNDIxNjczOSw2MTc4MTk1OTMsLTI1MT
 c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
 LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
