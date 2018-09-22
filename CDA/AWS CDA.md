@@ -182,8 +182,15 @@
 	* Multiply by the number of reads / sec
 	* [Remember for READs : Strongly = 2 x Eventual]
 
+### DAX (DynamoDB Accelerator)
+
+* DAX is a fully managed, clustered in-memory cache for DynamoDB
+* Deliveres upto 10 times the read performance improvement
+* Micro second performance for millions of requests per second
+* Ideal for read-heavy and bursty worklo
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE3ODE5NTkzLC0yNTE3OTU5MTEsLTI1Nj
-UyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1Myw3NTM5NzE5MjMs
-MTA5Mzk1NTg1Ml19
+eyJoaXN0b3J5IjpbLTQ3ODk3NTgwNiw2MTc4MTk1OTMsLTI1MT
+c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
+LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
