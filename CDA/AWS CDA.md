@@ -110,9 +110,9 @@
 	* By default, a scan operation operates sequentiall in returning the data in 1MB increments before moving on to get the next 1MB data. _It can only scan 1 partition at a time_
 	* You can configure Dynamodb to user Parallel Scans instead by logically deviding a table or index into segments and scanning each segment of the data in parallel.
 	* Best to avoid parallel scans if your table or index is already incurring heavy read /write activity from other applications.
+* A query operation finds items in a table using only the Primary Key attribute
+* 
 
-** Scan Vs Query Exam Tips:**
-A query operation finds items in a table using only 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5Mzk1NTg1Ml19
+eyJoaXN0b3J5IjpbLTE2MTc1OTE4MTcsMTA5Mzk1NTg1Ml19
 -->
