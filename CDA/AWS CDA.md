@@ -159,12 +159,12 @@
 		* Size of each item / 4KB = 0.75
 		* Round up to the nearest whole number, each READ will need 1 x RCU per read operation
 		* Multiplied by the number of reads/second = 80 
-		* Divide 80 / 2 = 40 (RCUs for eventually consistent READs)
+		* Divide 80 / 2 = 40 (RCUs for eventually consistent READs
 		* 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Mzc4NjkyOSwtMjU2NTI3ODA5LDU3ND
+eyJoaXN0b3J5IjpbMTIyNTI0NDk5NiwtMjU2NTI3ODA5LDU3ND
 ExODgxMSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUy
 XX0=
 -->
