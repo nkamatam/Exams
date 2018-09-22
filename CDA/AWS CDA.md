@@ -248,12 +248,14 @@
 
 **Lazy Loading and TTL**
 * Specifies the number of seconds until the key(data) expires to avoid keeping stale data in the cache
-* LAzy Loading treats an expired key as a cache miss and causes the application to retrive the data from ther database and subsequently write the data into the cache with a new TTL
+* Lazy Loading treats an expired key as a cache miss and causes the application to retrive the data from ther database and subsequently write the data into the cache with a new TTL
 * Does not eliminate stale data - but helps to avoid it
 
+**Write-Through Advantages and Disdvantages**
+* Write Through - Adds or updates data to the cache whenver data is writ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4OTMwMDM3LC0xODQzMDA2NjcsLTExOT
-A3NjM1OTUsNjE3ODE5NTkzLC0yNTE3OTU5MTEsLTI1NjUyNzgw
-OSw1NzQxMTg4MTEsMTA2OTk3NTc1Myw3NTM5NzE5MjMsMTA5Mz
-k1NTg1Ml19
+eyJoaXN0b3J5IjpbLTcwODMzMjUzNSwtMTg0MzAwNjY3LC0xMT
+kwNzYzNTk1LDYxNzgxOTU5MywtMjUxNzk1OTExLC0yNTY1Mjc4
+MDksNTc0MTE4ODExLDEwNjk5NzU3NTMsNzUzOTcxOTIzLDEwOT
+M5NTU4NTJdfQ==
 -->
