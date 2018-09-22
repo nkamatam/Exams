@@ -236,12 +236,14 @@
 	* 2 Strategies available: **LAzy Loading** and **Write-Through:**
 	* Lazy Loading - Loading data into the cache only when necessaty
 	* If requested data is in the cache, Elasticache retuens the data to the application
-	* If the data is not in the cache or has expired
+	* If the data is not in the cache or has expired, Elasticache returns null
+	* Your application then fetches the data from the database and writes the data recieved into the cache so that it is available next time.
+	* 
 
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNDIxNjczOSw2MTc4MTk1OTMsLTI1MT
-c5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUz
-LDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbLTE0OTEwNzQ2OTMsNjE3ODE5NTkzLC0yNT
+E3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1
+Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
