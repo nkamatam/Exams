@@ -18,10 +18,14 @@
 	* Add the user to the group
 		* Person managing the keys permission (But does not have permissions to do Encrption/Decrypt)
 	* add user myEncryptor
+		* Person who manages the encryption/decryption
 	* Add the user to the group
+	* Keys are _regional_
+	* Create a Key - myEncrypotionKey
+	* 
 	* 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTE1OTk5LC0xMDI2OTI5MTksODgzMj
+eyJoaXN0b3J5IjpbMzA1MTc5MjI3LC0xMDI2OTI5MTksODgzMj
 Q4NjAxLDE2NTEyOTY0ODldfQ==
 -->
