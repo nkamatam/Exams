@@ -37,11 +37,14 @@
 	* Create Alias and description
 	* Choose Material Option
 	* Define Key administrative permissions
-		* IAM users/roles can administer but not use
-
-	* 
-* 
+		* IAM users/roles can administer but not use (via KMS API)
+* Define Key usage permissions
+	* IAM users and roles that can use the key to encrypt and decrypt the data
+* Key Material Options
+	* AWS Generated
+	* Your own key material
+	
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4OTUwNzgwOSwtMTAyNjkyOTE5LDg4Mz
-I0ODYwMSwxNjUxMjk2NDg5XX0=
+eyJoaXN0b3J5IjpbMTU1OTE4ODYzLC0xMDI2OTI5MTksODgzMj
+Q4NjAxLDE2NTEyOTY0ODldfQ==
 -->
