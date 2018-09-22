@@ -283,13 +283,19 @@ Wasted resources if most of the data is never read||
 * 2 Consistency models: Strong Consistent/Eventually Consistent
 * Access is coltrolled using IAM policies
 * Fine grained access control using IAM Condition parameter ```dynamodb:LeadingKeys``` to allow users to access only the items where the partition key value matches their user ID.
-* 
+* Indexes enable fast queries on specific data columns
+* Give you a different view of your data based on alternative Partition/Sort Keys
+* Important to understand the differences:
+
+|Local secondary Index|Global Secondary Index|
+|--|--|
+|Must be created at when you create the table|Can create any time - at the table creation or after|
 * 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDYyMTI5MTMsMTIyNDEyMzk4MCw5Nz
-g1NzQzMjksLTE4NDMwMDY2NywtMTE5MDc2MzU5NSw2MTc4MTk1
-OTMsLTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMD
-Y5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbLTc1OTY3NTM4MiwxMjI0MTIzOTgwLDk3OD
+U3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5
+MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNj
+k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
 -->
