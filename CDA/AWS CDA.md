@@ -123,10 +123,13 @@
 * Query operation is in-general more efficient than a Scan operation
 * Reduce the impact of a query or a scan by setting a smaller page size which uses fewer read operations
 * Isolate scan operations to specific tables and segretgate them from your mission critical traffic
-* Try parallel scans
+* Try parallel scans, rather than default sequential scan
+* Avoid using scan operations if you can: design tables in a way that you can use the Query, Get or BatchItem APIs
+
+
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTU4MDg3Niw3NTM5NzE5MjMsMTA5Mz
-k1NTg1Ml19
+eyJoaXN0b3J5IjpbLTEzNTQ3MjA5LDc1Mzk3MTkyMywxMDkzOT
+U1ODUyXX0=
 -->
