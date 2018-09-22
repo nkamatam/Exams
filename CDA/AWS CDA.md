@@ -282,12 +282,13 @@ Wasted resources if most of the data is never read||
 * 2 types of Primary Keys: Partition Key and combination of Partition Key + Sort Key (Composite Key)
 * 2 Consistency models: Strong Consistent/Eventually Consistent
 * Access is coltrolled using IAM policies
-* Fine grained access control using IAM Condition parameter ```dynamodb:LeadingKeys``` to allow users to access only the items where the partition key value matches their user 
+* Fine grained access control using IAM Condition parameter ```dynamodb:LeadingKeys``` to allow users to access only the items where the partition key value matches their user ID.
+* 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzQzMjI4MiwxMjI0MTIzOTgwLDk3OD
-U3NDMyOSwtMTg0MzAwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5
-MywtMjUxNzk1OTExLC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNj
-k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbNDA2OTg3MTU5LDEyMjQxMjM5ODAsOTc4NT
+c0MzI5LC0xODQzMDA2NjcsLTExOTA3NjM1OTUsNjE3ODE5NTkz
+LC0yNTE3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OT
+k3NTc1Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
