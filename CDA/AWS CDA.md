@@ -195,10 +195,14 @@
 	* Which leads me to believe that DAX cluster is another datalayer over the DynamoDB database        
 * If the items that you are querying is in the cache (cache hit), DAX returns the result to the application.
 * If the item is not available (cache miss), then DAX performs Eventually Consnstent get-item operation against DynamoDB
-* Retrieval of data from DAX reduces the RE
+* Retrieval of data from DAX reduces the READ load on the DynamoDB database
+* May be able to reduce provisioned READ capacity
+* **What is it not suitable for**:
+	* Caters for Eventually Consistent Reads only - so not suitable for Strong .
+	* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMjU4NSw2MTc4MTk1OTMsLTI1MTc5NT
-kxMSwtMjU2NTI3ODA5LDU3NDExODgxMSwxMDY5OTc1NzUzLDc1
-Mzk3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbLTE0MTQ4NTY5MzgsNjE3ODE5NTkzLC0yNT
+E3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1
+Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
