@@ -142,11 +142,14 @@
 		* Twice as many Eventually Consistent = 40KB/Sec
 		* 5 x 1KB writes = 5 KB/Sec
 		* If your application consumes more data, it will consume more Capacity Units and will cost you more as well.
-		* **Strongly Consistent Reads Calculation**:
-		* You a
+* **Strongly Consistent Reads Calculation**: 
+	* Your application needs 80 items/sec.
+	* Each item is 3KB in size
+	* You need stongly consistenct reads
+		* First 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0NTcwNzIsNTc0MTE4ODExLDEwNjk5Nz
-U3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbLTE4MzE2MzcxMDEsNTc0MTE4ODExLDEwNj
+k5NzU3NTMsNzUzOTcxOTIzLDEwOTM5NTU4NTJdfQ==
 -->
