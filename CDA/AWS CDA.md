@@ -129,7 +129,7 @@
 ### Dynamodb Provisioned Throughput**
 **DynamoDB read and write capacity units**
 * DDB Provisioned Thoughput is measured in  capacity units
-* When you create a table, you mention the requirements in terms of READ and WRITE capacity units
+* When you create a table, you mention the requirements in terms of READ and WRITE capacity units (unless you specify AUTO SCALING)
 * 1 x  WRITE CU = 1 x 1 KB Write/Sec
 * 1 x READ CU = 
 	* 1 x Strong Consistent Read of 4KB/Sec 
@@ -139,6 +139,6 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0MTE4ODExLDEwNjk5NzU3NTMsNzUzOT
-cxOTIzLDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbMjY0MTAyNjMyLDU3NDExODgxMSwxMDY5OT
+c1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
 -->
