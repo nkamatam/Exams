@@ -119,11 +119,12 @@
 * By default returns all data attributes
 * Query results are always sorted by the sort key
 * Sorted in ASC order
-* Set ScanIndexForward parameter to _false_ to reverse the order queries only
+* Set ScanIndexForward parameter to _false_ to reverse the order - for queries only
 * Query operation is in-general more efficient than a Scan operation
+* Reduce the impact of a query or a scan by setting a smaller page size which 
 * 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyNjE3Mzg3LDc1Mzk3MTkyMywxMDkzOT
-U1ODUyXX0=
+eyJoaXN0b3J5IjpbLTEyNDQ3MjUyMjIsNzUzOTcxOTIzLDEwOT
+M5NTU4NTJdfQ==
 -->
