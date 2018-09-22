@@ -176,10 +176,11 @@
 * 1 x RCU = 1 x 4 KB Read/Sec( Strongly Consistent)
 *  1 x RCU = 2 x 4 KB Read/Sec( Eventually Consistent)
 * Calculation:
-	* Calculate how many 
+	* Calculate how many capacity units per each READ/WRITE
+	* => Size of the item / ( 4KB/1 KB)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MTgxMzI2NSwtMjUxNzk1OTExLC0yNT
+eyJoaXN0b3J5IjpbLTE2MTMxNjE1MSwtMjUxNzk1OTExLC0yNT
 Y1Mjc4MDksNTc0MTE4ODExLDEwNjk5NzU3NTMsNzUzOTcxOTIz
 LDEwOTM5NTU4NTJdfQ==
 -->
