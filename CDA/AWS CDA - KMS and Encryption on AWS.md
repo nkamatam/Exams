@@ -31,10 +31,17 @@
 	* description
 	* key state
 	* Key Material (either customer provided or AWS created)
-	* Can never be exported ( Can never 
+	* Can never be exported ( Can never leave AWS)
+	* If you use cloud HSM, you can export your customer master key
+* Setup CMK
+	* Create Alias and description
+	* Choose Material Option
+	* Define Key administrative permissions
+		* IAM users/roles can administer but not use
+
 	* 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4MTA3ODc3LC0xMDI2OTI5MTksODgzMj
-Q4NjAxLDE2NTEyOTY0ODldfQ==
+eyJoaXN0b3J5IjpbMTY4OTUwNzgwOSwtMTAyNjkyOTE5LDg4Mz
+I0ODYwMSwxNjUxMjk2NDg5XX0=
 -->
