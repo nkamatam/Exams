@@ -128,10 +128,13 @@
 
 ### Dynamodb Provisioned Throughput**
 **DynamoDB read and write capacity units**
-* DDBProvisioned    
+* DDB Provisioned Thoughput is measured in  capacity units
+* When you create a table, you mention the requirements in terms of READ and WRITE capacity units
+* 1 x  WRITE CU = 1 x 1 KB Write/Sec
+*   
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTcwNzgyNzgxLDEwNjk5NzU3NTMsNzUzOT
-cxOTIzLDEwOTM5NTU4NTJdfQ==
+eyJoaXN0b3J5IjpbMTM0OTUyNjAzNiwxMDY5OTc1NzUzLDc1Mz
+k3MTkyMywxMDkzOTU1ODUyXX0=
 -->
