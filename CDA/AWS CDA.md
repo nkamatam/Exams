@@ -131,10 +131,13 @@
 * DDB Provisioned Thoughput is measured in  capacity units
 * When you create a table, you mention the requirements in terms of READ and WRITE capacity units
 * 1 x  WRITE CU = 1 x 1 KB Write/Sec
-*   
+* 1 x READ CU = 1 x Strong Consistent Read of 4KB/Sec 
+(or) 
+2 x Eventual Consistent Reads of 4 KB/Sec
+* 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0OTUyNjAzNiwxMDY5OTc1NzUzLDc1Mz
-k3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbLTE3NzczMTcxMTksMTA2OTk3NTc1Myw3NT
+M5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
