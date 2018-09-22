@@ -240,18 +240,16 @@
 	* Your application then fetches the data from the database and writes the data recieved into the cache so that it is available next time.
 
 **Lazy Loading Advantages and Disadvantages**
+
 |Advantages|Disadvantages  |
 |--|--|
 |Only requested data is Cached; Avoids filling up the Cache with useless data|Cache miss penalty:Initial request - Query to the database - Writing of the data to the cache|
 |Node failures are not fatal. A new empty node will just have a lot of Cache misess initially|Stale data - if data is only updated when there is a cache miss, it can become stale. Doesn't automatically update if the data in the database changes|
 
-
-	* Lazy Loading and TTL
-
 	
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU3MjM3MjgsNjE3ODE5NTkzLC0yNT
+eyJoaXN0b3J5IjpbLTExOTA3NjM1OTUsNjE3ODE5NTkzLC0yNT
 E3OTU5MTEsLTI1NjUyNzgwOSw1NzQxMTg4MTEsMTA2OTk3NTc1
 Myw3NTM5NzE5MjMsMTA5Mzk1NTg1Ml19
 -->
