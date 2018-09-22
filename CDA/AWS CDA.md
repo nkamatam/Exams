@@ -244,12 +244,15 @@
 |Advantages|Disadvantages  |
 |--|--|
 |Only requested data is Cached; Avoids filling up the Cache with useless data | Cache miss penalty:Initial request - Query to the database - Writing of the data to the cache|
-|Node failures are not fatal. A new empty node will just have a lot of Cache misess initially | Stale data - if data is only updated when there is a cache miss, it can become stale. Doesn't automatically update if the data in the database changes|
+|Node failures are not fatal. A new empty node will just have a lot of Cache misess initially | Stale data - if data is only updated when there is a cache miss, it can become stale. Doesn't automatically update if the data in the database changes|
 
-	
+**Lazy Loading and TTL**
+* Specifies the number of seconds until the key(data) expires to avoid keeping stale data in the cache
+* LAzy Loading treats an expired key as a cache miss and causes the application to retrive the data from ther database and subsequently wr
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDMwMDY2NywtMTE5MDc2MzU5NSw2MT
-c4MTk1OTMsLTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3NDExODgx
-MSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUyXX0=
+eyJoaXN0b3J5IjpbLTg3NjE5ODgxMiwtMTg0MzAwNjY3LC0xMT
+kwNzYzNTk1LDYxNzgxOTU5MywtMjUxNzk1OTExLC0yNTY1Mjc4
+MDksNTc0MTE4ODExLDEwNjk5NzU3NTMsNzUzOTcxOTIzLDEwOT
+M5NTU4NTJdfQ==
 -->
