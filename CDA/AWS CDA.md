@@ -257,12 +257,15 @@
 |Disadvantages|Advantages|
 |--|--|
 |Write penalty: Every write involes a write to the cache as well as a write to the database| Data in the Cache never stale|
-|If a node fails and a new one is spun up, data is missing until added ot updated in the datbase(mitigate by implementing Lazy loading in conjunction with wtite-through)| Users are generally more tolerant of additional latency when updating data than when retrieving it|
+|If a node fails and a new one is spun up, data is missing until added ot updated in the datbase(mitigate by implementing Lazy loading in conjunction with write-through)| Users are generally more tolerant of additional latency when updating data than when retrieving it|
 Wasted resources if most of the data is never read||
 
+### Elasticache Exam Tips
+* In-memory cache sits betwe
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4NTc0MzI5LC0xODQzMDA2NjcsLTExOT
-A3NjM1OTUsNjE3ODE5NTkzLC0yNTE3OTU5MTEsLTI1NjUyNzgw
-OSw1NzQxMTg4MTEsMTA2OTk3NTc1Myw3NTM5NzE5MjMsMTA5Mz
-k1NTg1Ml19
+eyJoaXN0b3J5IjpbMzgyNDY4MDkyLDk3ODU3NDMyOSwtMTg0Mz
+AwNjY3LC0xMTkwNzYzNTk1LDYxNzgxOTU5MywtMjUxNzk1OTEx
+LC0yNTY1Mjc4MDksNTc0MTE4ODExLDEwNjk5NzU3NTMsNzUzOT
+cxOTIzLDEwOTM5NTU4NTJdfQ==
 -->
