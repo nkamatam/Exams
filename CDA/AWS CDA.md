@@ -175,10 +175,11 @@
 * 1 x WCU = 1 x 1 KB Write /Sec
 * 1 x RCU = 1 x 4 KB Read/Sec( Strongly Consistent)
 *  1 x RCU = 2 x 4 KB Read/Sec( Eventually Consistent)
-* 
+* Calculation:
+	* Calculate how many 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTc5NTkxMSwtMjU2NTI3ODA5LDU3ND
-ExODgxMSwxMDY5OTc1NzUzLDc1Mzk3MTkyMywxMDkzOTU1ODUy
-XX0=
+eyJoaXN0b3J5IjpbMTQ5MTgxMzI2NSwtMjUxNzk1OTExLC0yNT
+Y1Mjc4MDksNTc0MTE4ODExLDEwNjk5NzU3NTMsNzUzOTcxOTIz
+LDEwOTM5NTU4NTJdfQ==
 -->
