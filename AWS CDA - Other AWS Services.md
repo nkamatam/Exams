@@ -9,8 +9,8 @@
 * Standard Queues:
 	* Unlimited number of transactions per second. They guarentee that the message is delivered at least once. However, occasionally (because of the highly-distributed architecture that allow high throughput), _more than one copy_ of a message might be delivered out of order. Standard queues provide **best-effort ordering** which ensured that messages are **generally delivered** in the same order as thet are sent.
 * FIFI Queues:
-	* The FIFO queue complements the stan
+	* The FIFO queue complements the standard queue. The most important features of this queue type are FISO delivery and exactly once processing: The order in which messages are sent and recirved is strictly preserved and a message is delivered once and remains availabe until consumer procesess and deletes it; duplicates are not introduced into the queue. FIFO queues also suport message groups that allow multiple order
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTc3NTMxMTEsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbMjQ2MjI2MTE2LDczMDk5ODExNl19
 -->
