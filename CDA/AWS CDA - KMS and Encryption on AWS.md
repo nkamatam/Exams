@@ -90,14 +90,21 @@
 	* Key Material (either customer provided or AWS created)
 * Can never be exported ( Can never leave AWS) - Keys in HSM can be exported (HSM is dedicated to you??)
 
-* Setup a Cus
+* Setup a Customer Master Key
+* Key material options:
+	* Use KMS generated key material
+	* Your own key material
+AWS KMS API
+
+
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzA2NTUxOCwyNjMyNjQxNDQsLTQyND
+eyJoaXN0b3J5IjpbMTYyNDU3MzYzOCwyNjMyNjQxNDQsLTQyND
 I2NTU2MywtMTg0Mjc5OTM0MywtMTczNDU3NzE3MiwxNTU5MTg4
 NjMsLTEwMjY5MjkxOSw4ODMyNDg2MDEsMTY1MTI5NjQ4OV19
 -->
