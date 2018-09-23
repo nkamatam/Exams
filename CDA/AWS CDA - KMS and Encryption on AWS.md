@@ -72,13 +72,22 @@
 * Envelope key is used to Decrypt the data
 
 #### KMS Exam Tips
+* You can delete the key only in a 7 - 30 day window (disable first and then schedule the deletion)
+* AWS KMS is a managed service that makes it easy for you to create and control the encryption keys used to encrypt your data.
+* AWS KMS is integrated into other services like 
+	* EBS
+	* S3
+	* Amazon Redshift
+	* Amazon Elastic Transcoder
+	* Amazon Work Mail
+	* Relation Database Service
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjgzNjIxNiwyNjMyNjQxNDQsLTQyND
-I2NTU2MywtMTg0Mjc5OTM0MywtMTczNDU3NzE3MiwxNTU5MTg4
-NjMsLTEwMjY5MjkxOSw4ODMyNDg2MDEsMTY1MTI5NjQ4OV19
+eyJoaXN0b3J5IjpbNjg5NDU1NjM2LDI2MzI2NDE0NCwtNDI0Mj
+Y1NTYzLC0xODQyNzk5MzQzLC0xNzM0NTc3MTcyLDE1NTkxODg2
+MywtMTAyNjkyOTE5LDg4MzI0ODYwMSwxNjUxMjk2NDg5XX0=
 -->
