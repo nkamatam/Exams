@@ -47,8 +47,11 @@
 * aws configure
 	* Enter the keys
 	* Region where the key is stored
-* 
+* aws kms encrypt
+* aws kns decrype
+* aws kms re-encrypt
+* aws kms key-rotate ??
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODQ2NDc2NCwxNTU5MTg4NjMsLTEwMj
-Y5MjkxOSw4ODMyNDg2MDEsMTY1MTI5NjQ4OV19
+eyJoaXN0b3J5IjpbNTM0MzM4OTI4LDE1NTkxODg2MywtMTAyNj
+kyOTE5LDg4MzI0ODYwMSwxNjUxMjk2NDg5XX0=
 -->
