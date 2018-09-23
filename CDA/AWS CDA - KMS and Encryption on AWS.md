@@ -95,6 +95,16 @@
 	* Use KMS generated key material
 	* Your own key material
 AWS KMS API
+* aws kms encrypt - Encrypts
+* aws kns decrype - Decrypts
+* aws kms re-encrypt - Re-Encrypts (it takes the encrypted text and reencrypt it - it would decrypt but destroy the decrypted one right away)
+* aws kms enable-key-rotation -(what does it do? Rotaton every year?)
+
+
+* Customer Master Key used to decrypt the data key(envelop key)
+* Envelope key is used to Decrypt the data
+
+
 
 
 
@@ -104,7 +114,8 @@ AWS KMS API
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDU3MzYzOCwyNjMyNjQxNDQsLTQyND
-I2NTU2MywtMTg0Mjc5OTM0MywtMTczNDU3NzE3MiwxNTU5MTg4
-NjMsLTEwMjY5MjkxOSw4ODMyNDg2MDEsMTY1MTI5NjQ4OV19
+eyJoaXN0b3J5IjpbLTIwNDc3Njk5NTYsMjYzMjY0MTQ0LC00Mj
+QyNjU1NjMsLTE4NDI3OTkzNDMsLTE3MzQ1NzcxNzIsMTU1OTE4
+ODYzLC0xMDI2OTI5MTksODgzMjQ4NjAxLDE2NTEyOTY0ODldfQ
+==
 -->
