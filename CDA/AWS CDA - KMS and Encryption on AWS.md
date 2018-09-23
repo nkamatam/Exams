@@ -82,12 +82,22 @@
 	* Amazon Work Mail
 	* Relation Database Service
 
+* The customer master key
+	* alias
+	* creation date
+	* description
+	* key state
+	* Key Material (either customer provided or AWS created)
+* Can never be exported ( Can never leave AWS) - Keys in HSM can be exported (HSM is dedicated to you??)
+
+* Setup a Cus
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg5NDU1NjM2LDI2MzI2NDE0NCwtNDI0Mj
-Y1NTYzLC0xODQyNzk5MzQzLC0xNzM0NTc3MTcyLDE1NTkxODg2
-MywtMTAyNjkyOTE5LDg4MzI0ODYwMSwxNjUxMjk2NDg5XX0=
+eyJoaXN0b3J5IjpbLTIzMzA2NTUxOCwyNjMyNjQxNDQsLTQyND
+I2NTU2MywtMTg0Mjc5OTM0MywtMTczNDU3NzE3MiwxNTU5MTg4
+NjMsLTEwMjY5MjkxOSw4ODMyNDg2MDEsMTY1MTI5NjQ4OV19
 -->
