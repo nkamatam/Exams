@@ -61,9 +61,10 @@
 * Process of encrypting your envelope keys. They ecncrypt the key that encrypts the data.![Envelope Key](https://docs.aws.amazon.com/kms/latest/developerguide/images/key-hierarchy-cmk.png)
 
 #### Decyption with AWS
+![Decryption with AWS](https://github.com/nkamatam/Exams/blob/master/CDA/DecryptionWithAWS.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDI2NTU2MywtMTg0Mjc5OTM0MywtMT
-czNDU3NzE3MiwxNTU5MTg4NjMsLTEwMjY5MjkxOSw4ODMyNDg2
-MDEsMTY1MTI5NjQ4OV19
+eyJoaXN0b3J5IjpbMjYzMjY0MTQ0LC00MjQyNjU1NjMsLTE4ND
+I3OTkzNDMsLTE3MzQ1NzcxNzIsMTU1OTE4ODYzLC0xMDI2OTI5
+MTksODgzMjQ4NjAxLDE2NTEyOTY0ODldfQ==
 -->
