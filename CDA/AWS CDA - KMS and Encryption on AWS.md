@@ -55,10 +55,14 @@
 * aws kms encrypt - Encrypts
 * aws kns decrype - Decrypts
 * aws kms re-encrypt - Re-Encrypts (it takes the encrypted text and reencrypt it - it would decrypt but destroy the decrypted one right away)
-* aws kms enable-key-rotation - 
+* aws kms enable-key-rotation -(what does it do? Rotaton every year?)
+
+### Envelope Encryption
+* Process of encrypting your envelope keys.
+* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2Nzg5MjMwOCwtMTczNDU3NzE3MiwxNT
-U5MTg4NjMsLTEwMjY5MjkxOSw4ODMyNDg2MDEsMTY1MTI5NjQ4
-OV19
+eyJoaXN0b3J5IjpbLTE4NDI3OTkzNDMsLTE3MzQ1NzcxNzIsMT
+U1OTE4ODYzLC0xMDI2OTI5MTksODgzMjQ4NjAxLDE2NTEyOTY0
+ODldfQ==
 -->
