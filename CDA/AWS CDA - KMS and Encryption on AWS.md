@@ -62,11 +62,13 @@
 
 #### Decyption with AWS
 ![Decryption with AWS](https://github.com/nkamatam/Exams/blob/master/CDA/DecryptionWithAWS.png)
-1
 
+1. We have the envelop key
+2. In order to decrypt that, we take our master key and decrypt that (using KMS API) - we use the encryption algorithm for this
+3.      
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTU1OTY2NSwyNjMyNjQxNDQsLTQyND
-I2NTU2MywtMTg0Mjc5OTM0MywtMTczNDU3NzE3MiwxNTU5MTg4
-NjMsLTEwMjY5MjkxOSw4ODMyNDg2MDEsMTY1MTI5NjQ4OV19
+eyJoaXN0b3J5IjpbNTk0MTIzMTc2LDI2MzI2NDE0NCwtNDI0Mj
+Y1NTYzLC0xODQyNzk5MzQzLC0xNzM0NTc3MTcyLDE1NTkxODg2
+MywtMTAyNjkyOTE5LDg4MzI0ODYwMSwxNjUxMjk2NDg5XX0=
 -->
