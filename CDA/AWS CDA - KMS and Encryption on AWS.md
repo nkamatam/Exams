@@ -65,10 +65,15 @@
 
 1. We have the envelop key
 2. In order to decrypt that, we take our master key and decrypt that (using KMS API) - we use the encryption algorithm for this
-3.      
+3. So, we get the data key into plain text
+4. Now, using this plain text data key, we decrypt the encrypted data
+**Exam Tips**:
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0MTIzMTc2LDI2MzI2NDE0NCwtNDI0Mj
-Y1NTYzLC0xODQyNzk5MzQzLC0xNzM0NTc3MTcyLDE1NTkxODg2
-MywtMTAyNjkyOTE5LDg4MzI0ODYwMSwxNjUxMjk2NDg5XX0=
+eyJoaXN0b3J5IjpbMTg0NjIxOTcwMiwyNjMyNjQxNDQsLTQyND
+I2NTU2MywtMTg0Mjc5OTM0MywtMTczNDU3NzE3MiwxNTU5MTg4
+NjMsLTEwMjY5MjkxOSw4ODMyNDg2MDEsMTY1MTI5NjQ4OV19
 -->
