@@ -58,11 +58,11 @@
 * aws kms enable-key-rotation -(what does it do? Rotaton every year?)
 
 ### Envelope Encryption
-* Process of encrypting your envelope keys.
-* 
+* Process of encrypting your envelope keys. They ecncrypt the key that encrypts the data.![Envelope Key](https://docs.aws.amazon.com/kms/latest/developerguide/images/key-hierarchy-cmk.png)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI3OTkzNDMsLTE3MzQ1NzcxNzIsMT
-U1OTE4ODYzLC0xMDI2OTI5MTksODgzMjQ4NjAxLDE2NTEyOTY0
-ODldfQ==
+eyJoaXN0b3J5IjpbMTYyNDUxODM3NSwtMTg0Mjc5OTM0MywtMT
+czNDU3NzE3MiwxNTU5MTg4NjMsLTEwMjY5MjkxOSw4ODMyNDg2
+MDEsMTY1MTI5NjQ4OV19
 -->
