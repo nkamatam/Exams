@@ -54,10 +54,11 @@
 **KMS Exam Tips**
 * aws kms encrypt - Encrypts
 * aws kns decrype - Decrypts
-* aws kms re-encrypt - Re-Encrypts (see what it does)
-* aws kms enable-key-rotation xxxx - 
+* aws kms re-encrypt - Re-Encrypts (it takes the encrypted text and reencrypt it - it would decrypt but destroy the decrypted one right away)
+* aws kms enable-key-rotation - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQ1NzcxNzIsMTU1OTE4ODYzLC0xMD
-I2OTI5MTksODgzMjQ4NjAxLDE2NTEyOTY0ODldfQ==
+eyJoaXN0b3J5IjpbMjA2Nzg5MjMwOCwtMTczNDU3NzE3MiwxNT
+U5MTg4NjMsLTEwMjY5MjkxOSw4ODMyNDg2MDEsMTY1MTI5NjQ4
+OV19
 -->
