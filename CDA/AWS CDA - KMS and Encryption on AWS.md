@@ -43,8 +43,12 @@
 * Key Material Options
 	* AWS Generated
 	* Your own key material
-	
+* echo "Hello" > secret.txt
+* aws configure
+	* Enter the keys
+	* Region where the key is stored
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTE4ODYzLC0xMDI2OTI5MTksODgzMj
-Q4NjAxLDE2NTEyOTY0ODldfQ==
+eyJoaXN0b3J5IjpbMTQ1ODQ2NDc2NCwxNTU5MTg4NjMsLTEwMj
+Y5MjkxOSw4ODMyNDg2MDEsMTY1MTI5NjQ4OV19
 -->
