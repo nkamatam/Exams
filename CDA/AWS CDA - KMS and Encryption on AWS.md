@@ -60,9 +60,10 @@
 ### Envelope Encryption
 * Process of encrypting your envelope keys. They ecncrypt the key that encrypts the data.![Envelope Key](https://docs.aws.amazon.com/kms/latest/developerguide/images/key-hierarchy-cmk.png)
 
+#### Decyption with AWS
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDUxODM3NSwtMTg0Mjc5OTM0MywtMT
+eyJoaXN0b3J5IjpbLTQyNDI2NTU2MywtMTg0Mjc5OTM0MywtMT
 czNDU3NzE3MiwxNTU5MTg4NjMsLTEwMjY5MjkxOSw4ODMyNDg2
 MDEsMTY1MTI5NjQ4OV19
 -->
