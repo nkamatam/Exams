@@ -68,12 +68,17 @@
 3. So, we get the data key into plain text
 4. Now, using this plain text data key, we decrypt the encrypted data
 **Exam Tips**:
+* Customer Master Key used to decrypt the data key(envelop key)
+* Envelope key is used to Decrypt the data
+
+#### KMS Exam Tips
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NjIxOTcwMiwyNjMyNjQxNDQsLTQyND
+eyJoaXN0b3J5IjpbLTQzMjgzNjIxNiwyNjMyNjQxNDQsLTQyND
 I2NTU2MywtMTg0Mjc5OTM0MywtMTczNDU3NzE3MiwxNTU5MTg4
 NjMsLTEwMjY5MjkxOSw4ODMyNDg2MDEsMTY1MTI5NjQ4OV19
 -->
