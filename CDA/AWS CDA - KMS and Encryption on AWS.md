@@ -51,7 +51,13 @@
 * aws kns decrype xxx
 * aws kms re-encrypt xxx
 * aws kms enable-key-rotation xxxx
+**KMS Exam Tips**
+* aws kms encrypt - Encrypts
+* aws kns decrype - Decrypts
+* aws kms re-encrypt - Re-Encrypts (see what it does)
+* aws kms enable-key-rotation xxxx - 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTExNDczMTcsMTU1OTE4ODYzLC0xMD
+eyJoaXN0b3J5IjpbLTE3MzQ1NzcxNzIsMTU1OTE4ODYzLC0xMD
 I2OTI5MTksODgzMjQ4NjAxLDE2NTEyOTY0ODldfQ==
 -->
