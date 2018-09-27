@@ -8,11 +8,14 @@
 		* Cool Down and Spike situations have to be handled separately using auto scaling.
 * Standard Queues:
 	* Unlimited number of transactions per second. They guarentee that the message is delivered at least once. However, occasionally (because of the highly-distributed architecture that allow high throughput), _more than one copy_ of a message might be delivered out of order. Standard queues provide **best-effort ordering** which ensured that messages are **generally delivered** in the same order as thet are sent.
-* FIFI Queues:
+* FIFO Queues:
 	* The FIFO queue complements the standard queue. The most important features of this queue type are FIFO delivery and exactly once processing: The order in which messages are sent and recieved is strictly preserved and a message is delivered once and remains available until consumer procesess and deletes it; duplicates are not introduced into the queue. FIFO queues also suport message groups that allow multiple ordered message groups within a single queue. FIFO queues are limited to 300 transactions per second(TPS), but have all the capabilities of standard queues.
+	
+	## SNS
+	
 	* 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk5NzYzNTIsMjA4MzkzNjU2LDczMD
-k5ODExNl19
+eyJoaXN0b3J5IjpbLTE2NjMxOTgwNjQsLTE4Mjk5NzYzNTIsMj
+A4MzkzNjU2LDczMDk5ODExNl19
 -->
