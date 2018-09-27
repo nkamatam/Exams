@@ -13,8 +13,9 @@
 	
 	## SNS
 	Makes is easy to setup, operate and send notifications from the cloud. It provides developers with highly scalable, flexible and cost effective capability to puclish messages from an application and immediately deliver to the subscribers or other applications. 
-* Push notifications to Android, iOS, FireOS and Windows mobile devices and to Android devices in China using 
+* Push notifications to Android, iOS, FireOS and Windows mobile devices and to Android devices in China using Baidu Cloud Push.
+* Besides pushing cloud notifications directly to mobile devices, Amazon SNS can also deliver notifications by SMS push 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDE3NjU1NzMsLTE4Mjk5NzYzNTIsMj
-A4MzkzNjU2LDczMDk5ODExNl19
+eyJoaXN0b3J5IjpbMTA3Mjk0NDcxOSwtMTgyOTk3NjM1MiwyMD
+gzOTM2NTYsNzMwOTk4MTE2XX0=
 -->
