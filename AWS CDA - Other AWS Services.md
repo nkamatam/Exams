@@ -20,8 +20,11 @@
 * SNS allows you to to group multiple recipients using Topics. A Topic is an access point for the subscribers to dynamically subscribe to identical copies of the same notification.
 * One topic can support deliveries to multiple end-point types - for example you can group together iOS, Android and SMS recipients. When you publish once to a Topic, SNS delivers appropriately formatted copies of your message to each subscriber.
 * **Availability** : To prevent the loss of a message, all the SNS topics and messages are stored redundantly across AZs.
+### SNS Benefits
+* Delivery is instantaneous and _push based_(no polling)
+* Simple APIs and easy integration with Applications
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNDg0NDk1OSwtNDI0MzMxNjc1LC0xOD
-I5OTc2MzUyLDIwODM5MzY1Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTIwODQ0MzQ1OTYsLTQyNDMzMTY3NSwtMT
+gyOTk3NjM1MiwyMDgzOTM2NTYsNzMwOTk4MTE2XX0=
 -->
