@@ -13,14 +13,15 @@
 	
 	## SNS
 	Makes is easy to setup, operate and send notifications from the cloud. It provides developers with highly scalable, flexible and cost effective capability to puclish messages from an application and immediately deliver to the subscribers or other applications. 
-* Push notifications to Android, iOS, FireOS and Windows mobile devices and to Android devices in China using Baidu Cloud Push.
+* Push notifications to Android, iOS, Fire OS and Windows mobile devices and to Android devices in China using Baidu Cloud Push.
 * Besides pushing cloud notifications directly to mobile devices, Amazon SNS can also deliver notifications by SMS text messages or email to SQS or to any HTTP endpoint.
 * SNS notifications can also trigger lambda functions: When a message to delivered to a SNS topic that has a Lambda subscribed to it, Lambda is invoked when with the message as the payload. When the Lambda function receives the message as the payload, it can manipulate the message and publish to another SNS topic or to any other AWS service.
 * **SNS Topic**
 * SNS allows you to to group multiple recipients using Topics. A Topic is an access point for the subscribers to dynamically subscribe to identical copies of the same notification.
-* One topic can supoort deliveries to multiple end-point types - for example you can group together iOS, Android
+* One topic can support deliveries to multiple end-point types - for example you can group together iOS, Android and SMS recipients. When you publish once to a Topic, SNS delivers appropriately formatted copies of your message to each subscriber.
+* 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2OTU5MDY1MywtNDI0MzMxNjc1LC0xOD
+eyJoaXN0b3J5IjpbMTYxNzg0MTg1OCwtNDI0MzMxNjc1LC0xOD
 I5OTc2MzUyLDIwODM5MzY1Niw3MzA5OTgxMTZdfQ==
 -->
