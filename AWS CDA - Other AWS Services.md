@@ -17,9 +17,10 @@
 * Besides pushing cloud notifications directly to mobile devices, Amazon SNS can also deliver notifications by SMS text messages or email to SQS or to any HTTP endpoint.
 * SNS notifications can also trigger lambda functions: When a message to delivered to a SNS topic that has a Lambda subscribed to it, Lambda is invoked when with the message as the payload. When the Lambda function receives the message as the payload, it can manipulate the message and publish to another SNS topic or to any other AWS service.
 * **SNS Topic**
-* SNS allows you to 
+* SNS allows you to to group multiple recipients using Topics. A Topic is an access point for the subscribers to dynamically subscribe to identical copies of the same notification.
+* One topic can supoort deliveries to multiple end-point types - for example you can group together iOS, Android
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzM2MDk5MCwtNDI0MzMxNjc1LC0xOD
+eyJoaXN0b3J5IjpbLTc2OTU5MDY1MywtNDI0MzMxNjc1LC0xOD
 I5OTc2MzUyLDIwODM5MzY1Niw3MzA5OTgxMTZdfQ==
 -->
