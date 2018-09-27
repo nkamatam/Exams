@@ -15,8 +15,9 @@
 	Makes is easy to setup, operate and send notifications from the cloud. It provides developers with highly scalable, flexible and cost effective capability to puclish messages from an application and immediately deliver to the subscribers or other applications. 
 * Push notifications to Android, iOS, FireOS and Windows mobile devices and to Android devices in China using Baidu Cloud Push.
 * Besides pushing cloud notifications directly to mobile devices, Amazon SNS can also deliver notifications by SMS text messages or email to SQS or to any HTTP endpoint.
-* SNS notifications can also trigger lambda functions: When a message to delivered to a SNS topic that has a Lambda subscribed to it, Lambda is invoked when with the message
+* SNS notifications can also trigger lambda functions: When a message to delivered to a SNS topic that has a Lambda subscribed to it, Lambda is invoked when with the message as the payload. When the Lambda function recieves the message as the payload, it can manipulate the message and publish to another SNS topic or to any other AWS service.
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTU2NzIxLC0xODI5OTc2MzUyLDIwOD
-M5MzY1Niw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTI1MjU3NTk2NSwtMTgyOTk3NjM1MiwyMD
+gzOTM2NTYsNzMwOTk4MTE2XX0=
 -->
