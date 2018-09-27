@@ -12,16 +12,16 @@
 	* The FIFO queue complements the standard queue. The most important features of this queue type are FIFO delivery and exactly once processing: The order in which messages are sent and recieved is strictly preserved and a message is delivered once and remains available until consumer procesess and deletes it; duplicates are not introduced into the queue. FIFO queues also suport message groups that allow multiple ordered message groups within a single queue. FIFO queues are limited to 300 transactions per second(TPS), but have all the capabilities of standard queues.
 	
 	## SNS
-	Makes is easy to setup, operate and send notifications from the cloud. It provides developers with highly scalable, flexible and cost effective capability to puclish messages from an application and immediately deliver to the subscribers or other applications. 
+	Makes is easy to setup, operate and send notifications from the cloud. It provides developers with highly scalable, flexible and cost effective capability to publish messages from an application and immediately deliver to the subscribers or other applications. 
 * Push notifications to Android, iOS, Fire OS and Windows mobile devices and to Android devices in China using Baidu Cloud Push.
 * Besides pushing cloud notifications directly to mobile devices, Amazon SNS can also deliver notifications by SMS text messages or email to SQS or to any HTTP endpoint.
 * SNS notifications can also trigger lambda functions: When a message to delivered to a SNS topic that has a Lambda subscribed to it, Lambda is invoked when with the message as the payload. When the Lambda function receives the message as the payload, it can manipulate the message and publish to another SNS topic or to any other AWS service.
 * **SNS Topic**
 * SNS allows you to to group multiple recipients using Topics. A Topic is an access point for the subscribers to dynamically subscribe to identical copies of the same notification.
 * One topic can support deliveries to multiple end-point types - for example you can group together iOS, Android and SMS recipients. When you publish once to a Topic, SNS delivers appropriately formatted copies of your message to each subscriber.
-* 
+* **Availability** : To prevent the loss of a message, all the SNS topics and messages are stored redundantly across AZs.
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzg0MTg1OCwtNDI0MzMxNjc1LC0xOD
+eyJoaXN0b3J5IjpbLTYzNDg0NDk1OSwtNDI0MzMxNjc1LC0xOD
 I5OTc2MzUyLDIwODM5MzY1Niw3MzA5OTgxMTZdfQ==
 -->
