@@ -23,8 +23,14 @@
 ### SNS Benefits
 * Delivery is instantaneous and _push based_(no polling)
 * Simple APIs and easy integration with Applications
-* 
+* Flexible message delivery over multiple transport protocols
+	* SQS
+	* HTTP
+	* SMS
+	* Push Notifications to multiple mobile devices
+	* Inexpensive Pay-as-you-go model
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQ0MzQ1OTYsLTQyNDMzMTY3NSwtMT
-gyOTk3NjM1MiwyMDgzOTM2NTYsNzMwOTk4MTE2XX0=
+eyJoaXN0b3J5IjpbOTM2MDk2MTAzLC00MjQzMzE2NzUsLTE4Mj
+k5NzYzNTIsMjA4MzkzNjU2LDczMDk5ODExNl19
 -->
