@@ -62,13 +62,14 @@
 |--|--|
 |Email Messaging Service|Pub/Sub model messaging service (SMS, HTTP, SQS, email)|
 |Can trigger Lambda function or SNS notification| Can be used to trigger LAmbda function|
-|Can be used for both incoming and outgoing email| Can fan out emails to large number of recipients|
-|An email address is all that is needed to send email to the users|Consumers must subscribe to a topic to
+|Can be used for both incoming and outgoing email| Can fan out emails to large number of recipients (replicate messages to multiple formats and endpoints)|
+|An email address is all that is needed to send email to the users|Consumers must subscribe to a topic to get notifications|
+
 
 
  
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4MjgwMjIwLDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbLTE2NDk3Nzc1NjYsOTM2MDk2MTAzXX0=
 -->
