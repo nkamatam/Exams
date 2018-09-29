@@ -57,10 +57,16 @@
 	* Ex: Automated emails to customers
 * Can also be used to receive emails - incoming emails can be delivered to an S3 bucket
 * Incoming emails can be used to trigger SNS notifications or Lambda functions
-* 
+
+|SES|SNS|
+|--|--|
+|Email Messaging Service|Pub/Sub model messaging service (SMS, HTTP, SQS, email)|
+|Can trigger Lambda function or SNS notification| 
+
+
  
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1OTY0NzU4LDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbLTE0NDI5MDY3MzQsOTM2MDk2MTAzXX0=
 -->
