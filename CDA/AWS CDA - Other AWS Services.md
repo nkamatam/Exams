@@ -29,7 +29,10 @@
 	* SMS
 	* Push Notifications to multiple mobile devices
 * Inexpensive Pay-as-you-go model
-	* 
+* Web Based AWS console offers easy point-and-click interface
+
+### SNS vs SQS
+*  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTY0OTgyOSw5MzYwOTYxMDNdfQ==
+eyJoaXN0b3J5IjpbLTExMzQwMTg5OTgsOTM2MDk2MTAzXX0=
 -->
