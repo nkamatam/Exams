@@ -32,7 +32,12 @@
 * Web Based AWS console offers easy point-and-click interface
 
 ### SNS vs SQS
-*  
+* Both are messaging services
+* SQS - Pull, SNS - Push
+### SNS Pricing
+* $0.06 per 10,000 Notification Deliveries over HTTP
+* #0.75 
+* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzQwMTg5OTgsOTM2MDk2MTAzXX0=
+eyJoaXN0b3J5IjpbNDUyOTkyNjQyLDkzNjA5NjEwM119
 -->
