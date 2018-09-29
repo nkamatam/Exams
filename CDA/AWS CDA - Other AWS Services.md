@@ -52,11 +52,15 @@
 ## SES vs SNS
 
 ### SES
-* SES is a scalable and highly available email service designed to help marketing teams and application developers to send marketing, notification and transactional emails to their customers using pay-as-you-go model.
-* Can also be used to recieve emails - incoming emails can be delivered to an S# bucket
+* SES is a scalable and highly available email service designed to help marketing teams and application developers to send marketing, notification and transaction emails to their customers using pay-as-you-go model.
+* Automated emails:
+	* Ex: Automated emails to customers
+* Can also be used to receive emails - incoming emails can be delivered to an S3 bucket
+* Incoming emails can be used to trigger SNS notifications or Lambda functions
+* 
  
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzkwMjIzNjEsOTM2MDk2MTAzXX0=
+eyJoaXN0b3J5IjpbNzE1OTY0NzU4LDkzNjA5NjEwM119
 -->
