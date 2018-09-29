@@ -40,8 +40,9 @@
 * $2 per 100,000 notification deliveries via email
 
 ### SNS 
-* SNS follows the pub-sub paradigm, with notifications being delivered to the clients w
+* SNS follows the pub-sub paradigm, with notifications being delivered to the clients with a push mechanism that eliminates the need to periodically check for new information or updates
+* * With simple APIs requiring minimal development effort, no maintenance and management overhead and pay-as-you-grow pricing, SNS gives de
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTYyMjkyMjksOTM2MDk2MTAzXX0=
+eyJoaXN0b3J5IjpbMjI4MTAyNzg1LDkzNjA5NjEwM119
 -->
