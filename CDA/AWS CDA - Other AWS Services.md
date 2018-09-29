@@ -52,9 +52,10 @@
 ## SES vs SNS
 
 ### SES
-SES is a scalable and highly ava
+SES is a scalable and highly available email service designed to help marketing teams and application developers to send marketing, notification and transactional emails to their customers using pay-as-you-go model.
+ 
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg0NjE2MTksOTM2MDk2MTAzXX0=
+eyJoaXN0b3J5IjpbLTc4MDkwMDQxOCw5MzYwOTYxMDNdfQ==
 -->
