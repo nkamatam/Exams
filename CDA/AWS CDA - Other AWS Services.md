@@ -41,8 +41,11 @@
 
 ### SNS 
 * SNS follows the pub-sub paradigm, with notifications being delivered to the clients with a push mechanism that eliminates the need to periodically check for new information or updates
-* * With simple APIs requiring minimal development effort, no maintenance and management overhead and pay-as-you-grow pricing, SNS gives de
+* * With simple APIs requiring minimal development effort, no maintenance and management overhead and pay-as-you-grow pricing, SNS gives developers an easy mechanism to incorporate a powerful notification system with their applications.
+
+### SNS Exam Tips
+* SNS is scalable and highly
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4MTAyNzg1LDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbNTE0MTc3NjczLDkzNjA5NjEwM119
 -->
