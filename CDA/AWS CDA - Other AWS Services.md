@@ -47,9 +47,10 @@
 * SNS is scalable and highly available notification service which allows you to push notifications from the cloud.
 * Veriety of message formats supported : SMS, email, SQS and HTTP endpoint
 * pub-sub model where users subscribe to Topics
-* It is a push mechanism than a pull mechanism
-* 
+* It is a push mechanism than a pull (poll) mechanism
+
+
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzQ3MjI4OSw5MzYwOTYxMDNdfQ==
+eyJoaXN0b3J5IjpbMTk4NDI4OTA5Myw5MzYwOTYxMDNdfQ==
 -->
