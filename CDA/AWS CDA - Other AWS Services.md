@@ -39,7 +39,7 @@
 * $0.75 per 100 notification deliveries via SMS
 * $2 per 100,000 notification deliveries via email
 
-### SNS 
+## SNS 
 * SNS follows the pub-sub paradigm, with notifications being delivered to the clients with a push mechanism that eliminates the need to periodically check for new information or updates
 * * With simple APIs requiring minimal development effort, no maintenance and management overhead and pay-as-you-grow pricing, SNS gives developers an easy mechanism to incorporate a powerful notification system with their applications.
 
@@ -49,8 +49,12 @@
 * pub-sub model where users subscribe to Topics
 * It is a push mechanism than a pull (poll) mechanism
 
+## SES vs SNS
+
+### SES
+SES is a scalable and highly ava
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NDI4OTA5Myw5MzYwOTYxMDNdfQ==
+eyJoaXN0b3J5IjpbLTE0OTg0NjE2MTksOTM2MDk2MTAzXX0=
 -->
