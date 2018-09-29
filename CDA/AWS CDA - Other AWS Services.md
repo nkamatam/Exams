@@ -44,8 +44,12 @@
 * * With simple APIs requiring minimal development effort, no maintenance and management overhead and pay-as-you-grow pricing, SNS gives developers an easy mechanism to incorporate a powerful notification system with their applications.
 
 ### SNS Exam Tips
-* SNS is scalable and highly
+* SNS is scalable and highly available notification service which allows you to push notifications from the cloud.
+* Veriety of message formats supported : SMS, email, SQS and HTTP endpoint
+* pub-sub model where users subscribe to Topics
+* It is a push mechanism than a pull mechanism
+* 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0MTc3NjczLDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbLTUxNzQ3MjI4OSw5MzYwOTYxMDNdfQ==
 -->
