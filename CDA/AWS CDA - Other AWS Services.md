@@ -36,8 +36,12 @@
 * SQS - Pull, SNS - Push
 ### SNS Pricing
 * $0.06 per 10,000 Notification Deliveries over HTTP
-* #0.75 
+* $0.75 per 100 notification deliveries via SMS
+* $2 per 100,000 notification deliveries via email
+
+### SNS 
+* SNS follows the pub-sub paradigm, with notifications being delivered to the clients w
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyOTkyNjQyLDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbLTE3MTYyMjkyMjksOTM2MDk2MTAzXX0=
 -->
