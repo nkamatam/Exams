@@ -79,7 +79,12 @@
 	* Game Data (Angry Birds etc)
 	* Social Network Data (FB Posts etc)
 	* Geo Spacial Data (Ex: Uber - Constantly tracking Uber driverf's location and give you a fastest way to reach the customer)
-* I
+* IoT Data
+### What is Kinesis
+* Platform to send your straming data to.
+* Easy to load and analyse straming data
+* Ability to build your own custom application for your business needs
+
 	* 
 * 
 
@@ -88,6 +93,6 @@
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjUwNzg4OCwxMzU1ODI0MjEwLC0xNj
-Q5Nzc3NTY2LDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbLTE0Nzc2NjAzMzksMTM1NTgyNDIxMCwtMT
+Y0OTc3NzU2Niw5MzYwOTYxMDNdfQ==
 -->
