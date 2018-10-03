@@ -94,6 +94,9 @@ Producers ---> [ Kinesnsi Streams ]
 * Consists of Shrads
 * 5 transactions / second
 * up to a max total data read tate of 2 MB / Sec
+* up to 1,000 records per second for writes
+* up to a maximum total data write rate of 1 MB / second (including partition keys)
+* 
 * 
 
 
@@ -101,6 +104,6 @@ Producers ---> [ Kinesnsi Streams ]
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MDA3MDMyNiwxMzU1ODI0MjEwLC0xNj
-Q5Nzc3NTY2LDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbLTIzMzU2MjE1NywxNDQwMDcwMzI2LDEzNT
+U4MjQyMTAsLTE2NDk3Nzc1NjYsOTM2MDk2MTAzXX0=
 -->
