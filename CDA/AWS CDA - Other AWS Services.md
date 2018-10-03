@@ -96,6 +96,8 @@ Producers ---> [ Kinesnsi Streams ]
 * up to a max total data read tate of 2 MB / Sec
 * up to 1,000 records per second for writes
 * up to a maximum total data write rate of 1 MB / second (including partition keys)
+* The data capacity of your sctream is a function fo teh number of Shrads that you specify for the stream. The total capacity of the stream is the sum of the capabilities of its shrads
+### Kinesis Fire
 * 
 * 
 
@@ -104,6 +106,6 @@ Producers ---> [ Kinesnsi Streams ]
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzU2MjE1NywxNDQwMDcwMzI2LDEzNT
+eyJoaXN0b3J5IjpbMTAwNTc0MTQ3MiwxNDQwMDcwMzI2LDEzNT
 U4MjQyMTAsLTE2NDk3Nzc1NjYsOTM2MDk2MTAzXX0=
 -->
