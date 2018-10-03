@@ -97,7 +97,8 @@ Producers ---> [ Kinesnsi Streams ]
 * up to 1,000 records per second for writes
 * up to a maximum total data write rate of 1 MB / second (including partition keys)
 * The data capacity of your sctream is a function fo teh number of Shrads that you specify for the stream. The total capacity of the stream is the sum of the capabilities of its shrads
-### Kinesis Fire
+### Kinesis Firehose
+* Producers are sending the data to Kinesis firehose ( no shrads and streams, no manual addition of shrads), can analys the data using Lambda . The anaytics  can be p-erformed on this data and that can be sent to S3. 
 * 
 * 
 
@@ -106,6 +107,6 @@ Producers ---> [ Kinesnsi Streams ]
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTc0MTQ3MiwxNDQwMDcwMzI2LDEzNT
-U4MjQyMTAsLTE2NDk3Nzc1NjYsOTM2MDk2MTAzXX0=
+eyJoaXN0b3J5IjpbMzQyNTI0NzA3LDE0NDAwNzAzMjYsMTM1NT
+gyNDIxMCwtMTY0OTc3NzU2Niw5MzYwOTYxMDNdfQ==
 -->
