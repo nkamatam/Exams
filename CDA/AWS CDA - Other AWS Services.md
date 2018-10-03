@@ -84,8 +84,12 @@
 * Platform to send your straming data to.
 * Easy to load and analyse straming data
 * Ability to build your own custom application for your business needs
+### Kinesis Services
+* Streams/Girehose/Analytics
+### K-Streams
 
-	* 
+Producers ---> [ Kinesnsi Streams ]
+							[Shrads                   ]   -----> EC2 instances
 * 
 
 
@@ -93,6 +97,6 @@
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzc2NjAzMzksMTM1NTgyNDIxMCwtMT
+eyJoaXN0b3J5IjpbLTE3MjAyOTQxNzYsMTM1NTgyNDIxMCwtMT
 Y0OTc3NzU2Niw5MzYwOTYxMDNdfQ==
 -->
