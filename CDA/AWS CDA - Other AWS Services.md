@@ -89,7 +89,11 @@
 ### K-Streams
 
 Producers ---> [ Kinesnsi Streams ]
-							[Shrads                   ]   -----> EC2 instances
+					      [Shrads                   ]   -----> EC2 instances
+
+* Consists of Shrads
+* 5 transactions / second
+* up to a max total data read tate of 2 MB / Sec
 * 
 
 
@@ -97,6 +101,6 @@ Producers ---> [ Kinesnsi Streams ]
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjAyOTQxNzYsMTM1NTgyNDIxMCwtMT
-Y0OTc3NzU2Niw5MzYwOTYxMDNdfQ==
+eyJoaXN0b3J5IjpbMTQ0MDA3MDMyNiwxMzU1ODI0MjEwLC0xNj
+Q5Nzc3NTY2LDkzNjA5NjEwM119
 -->
