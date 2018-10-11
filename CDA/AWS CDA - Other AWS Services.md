@@ -145,15 +145,16 @@ Kinesis Analytics
 * Goto Elastic Beanstalk
 * Instead sample app, please chose the local file and upload it.
 * Chose the environment to the PHP - and Choose "Create Application"
-* You can goto the applciatio
+* You can goto the website link and see that the application is deployed well.
+* 
 
 
  
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwOTY0NDI2LC0xOTI0MzE5MzA3LC0xND
-QyMDg3ODAyLC00OTk5MDExNzYsLTEyNjg1MzMwMzQsMTQ0MDA3
-MDMyNiwxMzU1ODI0MjEwLC0xNjQ5Nzc3NTY2LDkzNjA5NjEwM1
-19
+eyJoaXN0b3J5IjpbMTMyNjQzNzg3MSw5MDA5NjQ0MjYsLTE5Mj
+QzMTkzMDcsLTE0NDIwODc4MDIsLTQ5OTkwMTE3NiwtMTI2ODUz
+MzAzNCwxNDQwMDcwMzI2LDEzNTU4MjQyMTAsLTE2NDk3Nzc1Nj
+YsOTM2MDk2MTAzXX0=
 -->
