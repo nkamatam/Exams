@@ -116,7 +116,8 @@ Kinesis Analytics
 
 ### Elastic Beanstyalk 101
 * What is Elastic Beanstalk
-	* It is a service that helps deploying and scaling web applications developed in many popular languages : Java, .NET, PHP, 
+	* It is a service that helps deploying and scaling web applications developed in many popular languages : Java, .NET, PHP, Node.js, Python, Ruby, Go and Docker onto widely used server platforms like Apache Tomcat, Nginx, Passenger and IIS. 
+	* Developers can focus on writing code and don't need to worry about any  
 
 
 * 
@@ -126,7 +127,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTY0OTQ4NSwtMTQ0MjA4NzgwMiwtND
-k5OTAxMTc2LC0xMjY4NTMzMDM0LDE0NDAwNzAzMjYsMTM1NTgy
-NDIxMCwtMTY0OTc3NzU2Niw5MzYwOTYxMDNdfQ==
+eyJoaXN0b3J5IjpbLTE5NTUwMDA1NDEsLTE0NDIwODc4MDIsLT
+Q5OTkwMTE3NiwtMTI2ODUzMzAzNCwxNDQwMDcwMzI2LDEzNTU4
+MjQyMTAsLTE2NDk3Nzc1NjYsOTM2MDk2MTAzXX0=
 -->
