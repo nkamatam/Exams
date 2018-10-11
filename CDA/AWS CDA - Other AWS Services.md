@@ -114,6 +114,10 @@ Kinesis Analytics
 * Use the cloud formation - The template is present in the resources section of the course.
 
 
+### Elastic Beanstyalk 101
+* What is Elastic Beanstalk
+	* It is a service that helps deploying and scaling web applications developed in many popular languages : Java, .NET, PHP, 
+
 
 * 
 
@@ -122,7 +126,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzOTQxNTg0LC0xNDQyMDg3ODAyLC00OT
-k5MDExNzYsLTEyNjg1MzMwMzQsMTQ0MDA3MDMyNiwxMzU1ODI0
-MjEwLC0xNjQ5Nzc3NTY2LDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbMTQzMTY0OTQ4NSwtMTQ0MjA4NzgwMiwtND
+k5OTAxMTc2LC0xMjY4NTMzMDM0LDE0NDAwNzAzMjYsMTM1NTgy
+NDIxMCwtMTY0OTc3NzU2Niw5MzYwOTYxMDNdfQ==
 -->
