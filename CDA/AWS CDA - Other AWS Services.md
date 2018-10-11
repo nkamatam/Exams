@@ -86,6 +86,8 @@
 * Ability to build your own custom application for your business needs
 ### Kinesis Services
 * Streams/Girehose/Analytics
+![KS](https://github.com/nkamatam/Exams/blob/master/CDA/KStreams.png)
+
 ### K-Streams
 
 Producers ---> [ Kinesis Streams ]
@@ -99,6 +101,9 @@ Producers ---> [ Kinesis Streams ]
 * The data capacity of your sctream is a function fo teh number of Shrads that you specify for the stream. The total capacity of the stream is the sum of the capabilities of its shrads
 ### Kinesis Firehose
 * Producers are sending the data to Kinesis firehose ( no shrads and streams, no manual addition of shrads. It is completely automated), You do not need to concern yourlsef about data consumers mining the data from Firehose. It can analyse the data using Lambda in real time. The anaytics  can be performed on this data and that can be sent to S3. The anaylytics on the data is completely optional.
+![](https://github.com/nkamatam/Exams/blob/master/CDA/FieHose.png)
+
+
 * There is no automatic data retention window in Amazon Firehose. In Kinesis Streams, there is such a window (24 hours by default which can be extended to 7 days) but in Firehose there is none. It is either analysed using lambda or directly sent to S3 or (Redshift (wite to S3 first and then copied to Redshift), Elastic Search cluster ( can directly write). Firehose is a very automatic way of doing this. No need to worry about shrads etc
 
 Kinesis Analytics
@@ -155,8 +160,8 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTQ1NDE2Myw5MDA5NjQ0MjYsLTE5Mj
-QzMTkzMDcsLTE0NDIwODc4MDIsLTQ5OTkwMTE3NiwtMTI2ODUz
-MzAzNCwxNDQwMDcwMzI2LDEzNTU4MjQyMTAsLTE2NDk3Nzc1Nj
-YsOTM2MDk2MTAzXX0=
+eyJoaXN0b3J5IjpbODQ2MTE1NTU0LDEzNTk0NTQxNjMsOTAwOT
+Y0NDI2LC0xOTI0MzE5MzA3LC0xNDQyMDg3ODAyLC00OTk5MDEx
+NzYsLTEyNjg1MzMwMzQsMTQ0MDA3MDMyNiwxMzU1ODI0MjEwLC
+0xNjQ5Nzc3NTY2LDkzNjA5NjEwM119
 -->
