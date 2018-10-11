@@ -88,7 +88,7 @@
 * Streams/Girehose/Analytics
 ### K-Streams
 
-Producers ---> [ Kinesnsi Streams ]
+Producers ---> [ Kinesis Streams ]
 					      [Shrads                   ]   -----> EC2 instances
 
 * Consists of Shrads
@@ -107,6 +107,7 @@ Producers ---> [ Kinesnsi Streams ]
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjg1MzMwMzQsMTQ0MDA3MDMyNiwxMz
-U1ODI0MjEwLC0xNjQ5Nzc3NTY2LDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbLTQ5OTkwMTE3NiwtMTI2ODUzMzAzNCwxND
+QwMDcwMzI2LDEzNTU4MjQyMTAsLTE2NDk3Nzc1NjYsOTM2MDk2
+MTAzXX0=
 -->
