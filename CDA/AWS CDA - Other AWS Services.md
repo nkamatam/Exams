@@ -130,11 +130,17 @@ Kinesis Analytics
 * Integrated with Cloud Watch and X-Ray (for performance data and metrics)
 
 #### Elastic Beanstalk Exam Tips
+* Fastest and the simplest way to deploy your code to AWS
+* Automatically scales your applications up or down
+* You can select the suitable EC2 instance type for your needs.
+* You can retain full admin control of all the infrastructure created by Elastic Beanstalk or have it do for you
+* Managed platform updates will automatically update your operating systems, Java, PHP, Node.js etc
+* Monitor and Manage the health via dashboard
+* Integrated with Cloud Watch and X-Ray (for performance data and metrics)
 
-	* You can still contol the underlying infrastructure.
-	*  
+### Deploy Applications with Elastic Beanstalk
 
-
+* 
 * 
 
 
@@ -142,7 +148,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDUzNzExLC0xNDQyMDg3ODAyLC00OT
-k5MDExNzYsLTEyNjg1MzMwMzQsMTQ0MDA3MDMyNiwxMzU1ODI0
-MjEwLC0xNjQ5Nzc3NTY2LDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbLTU2MTIwMDYxNCwtMTQ0MjA4NzgwMiwtND
+k5OTAxMTc2LC0xMjY4NTMzMDM0LDE0NDAwNzAzMjYsMTM1NTgy
+NDIxMCwtMTY0OTc3NzU2Niw5MzYwOTYxMDNdfQ==
 -->
