@@ -112,7 +112,7 @@ Kinesis Analytics
 * Will setup Kinesis Streams using Cloud Formation
 * Change the region to North Vergenia
 * Use the cloud formation - The template is present in the resources section of the course.
-* 
+
 
 
 * 
@@ -122,7 +122,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDIwODc4MDIsLTQ5OTkwMTE3NiwtMT
-I2ODUzMzAzNCwxNDQwMDcwMzI2LDEzNTU4MjQyMTAsLTE2NDk3
-Nzc1NjYsOTM2MDk2MTAzXX0=
+eyJoaXN0b3J5IjpbMjMzOTQxNTg0LC0xNDQyMDg3ODAyLC00OT
+k5MDExNzYsLTEyNjg1MzMwMzQsMTQ0MDA3MDMyNiwxMzU1ODI0
+MjEwLC0xNjQ5Nzc3NTY2LDkzNjA5NjEwM119
 -->
