@@ -121,7 +121,11 @@ Kinesis Analytics
 	* Throw the code in a ZIP file and Elastic Beanstalk will detect and configure the environment needed to deploy the application, Ex: Webservice, Autoscaling, RDS (or you can manage yourself). Similar to cloud formation (but CF is based on JSON) but Elastic Beanstalk will delpoy all for you.
 
 #### What is Elastic Beanstalk?
-* Fastest and the simplest way to deploy your 
+* Fastest and the simplest way to deploy your code to AWS
+* Automatically scales your applications up or down
+* You can select the suitable EC2 instance type for your needs.
+* You can retain full admin control of all the infrastructure created by Elastic Beanstalk or have it do for you
+* 
 	* You can still contol the underlying infrastructure.
 	*  
 
@@ -133,7 +137,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjMwOTUyLC0xNDQyMDg3ODAyLC00OT
-k5MDExNzYsLTEyNjg1MzMwMzQsMTQ0MDA3MDMyNiwxMzU1ODI0
-MjEwLC0xNjQ5Nzc3NTY2LDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbLTExNzIwMjYxNzcsLTE0NDIwODc4MDIsLT
+Q5OTkwMTE3NiwtMTI2ODUzMzAzNCwxNDQwMDcwMzI2LDEzNTU4
+MjQyMTAsLTE2NDk3Nzc1NjYsOTM2MDk2MTAzXX0=
 -->
