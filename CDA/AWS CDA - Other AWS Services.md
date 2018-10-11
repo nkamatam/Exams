@@ -102,7 +102,11 @@ Producers ---> [ Kinesis Streams ]
 * There is no automatic data retention window in Amazon Firehose. In Kinesis Streams, there is such a window (24 hours by default which can be extended to 7 days) but in Firehose there is none. It is either analysed using lambda or directly sent to S3 or (Redshift (wite to S3 first and then copied to Redshift), Elastic Search cluster ( can directly write). Firehose is a very automatic way of doing this. No need to worry about shrads etc
 
 Kinesis Analytics
-* Allows you to run sql queries on the data coming from Kinenis streams/fh. Way of analysis data usin
+* Allows you to run sql queries on the data coming from Kinenis streams/fh. Way of analysis data using SQL type landuages across (Kinesis streams/Firehose)
+
+#### Exam Tips
+* Understand the difference between Kinesis Streams and Kinesis Firehose. Will be needed to find what service is used when.
+* 
 
 
 * 
@@ -112,7 +116,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjMyOTgsLTQ5OTkwMTE3NiwtMTI2OD
-UzMzAzNCwxNDQwMDcwMzI2LDEzNTU4MjQyMTAsLTE2NDk3Nzc1
-NjYsOTM2MDk2MTAzXX0=
+eyJoaXN0b3J5IjpbNDQ4MTY1MzYwLC00OTk5MDExNzYsLTEyNj
+g1MzMwMzQsMTQ0MDA3MDMyNiwxMzU1ODI0MjEwLC0xNjQ5Nzc3
+NTY2LDkzNjA5NjEwM119
 -->
