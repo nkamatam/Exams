@@ -98,8 +98,8 @@ Producers ---> [ Kinesis Streams ]
 * up to a maximum total data write rate of 1 MB / second (including partition keys)
 * The data capacity of your sctream is a function fo teh number of Shrads that you specify for the stream. The total capacity of the stream is the sum of the capabilities of its shrads
 ### Kinesis Firehose
-* Producers are sending the data to Kinesis firehose ( no shrads and streams, no manual addition of shrads. It is completely automated), You do not need to concern yourlsef about data consumers mining the data from Firehose. It can analyse the data using Lambda in real time. The anaytics  can be p-erformed on this data and that can be sent to S3. The anay=lytics on the data is completely optional.
-* 
+* Producers are sending the data to Kinesis firehose ( no shrads and streams, no manual addition of shrads. It is completely automated), You do not need to concern yourlsef about data consumers mining the data from Firehose. It can analyse the data using Lambda in real time. The anaytics  can be performed on this data and that can be sent to S3. The anaylytics on the data is completely optional.
+* There is no automatic data retention window in Amazon Firehose. In Kinesis Streams, there is such a window but in Firehose there is none. 
 * 
 
 
@@ -107,7 +107,7 @@ Producers ---> [ Kinesis Streams ]
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTkwMTE3NiwtMTI2ODUzMzAzNCwxND
-QwMDcwMzI2LDEzNTU4MjQyMTAsLTE2NDk3Nzc1NjYsOTM2MDk2
-MTAzXX0=
+eyJoaXN0b3J5IjpbLTUwNTU0OTU2MSwtNDk5OTAxMTc2LC0xMj
+Y4NTMzMDM0LDE0NDAwNzAzMjYsMTM1NTgyNDIxMCwtMTY0OTc3
+NzU2Niw5MzYwOTYxMDNdfQ==
 -->
