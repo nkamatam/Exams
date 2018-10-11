@@ -146,14 +146,16 @@ Kinesis Analytics
 * Instead sample app, please chose the local file and upload it.
 * Chose the environment to the PHP - and Choose "Create Application"
 * You can goto the website link and see that the application is deployed well.
-* You can go and configure the environment created by Elastic Beanstalk (e
+* You can go and configure the environment created by Elastic Beanstalk (ex: Server type etc)
+* "Rolling updates and deployments" is an important exam topic and will be covered in the next lecture
+* 
 
 
  
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MDYwMTUyMyw5MDA5NjQ0MjYsLTE5Mj
+eyJoaXN0b3J5IjpbMTM1OTQ1NDE2Myw5MDA5NjQ0MjYsLTE5Mj
 QzMTkzMDcsLTE0NDIwODc4MDIsLTQ5OTkwMTE3NiwtMTI2ODUz
 MzAzNCwxNDQwMDcwMzI2LDEzNTU4MjQyMTAsLTE2NDk3Nzc1Nj
 YsOTM2MDk2MTAzXX0=
