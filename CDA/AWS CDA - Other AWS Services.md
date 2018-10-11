@@ -140,6 +140,7 @@ Kinesis Analytics
 
 ### Deploy Applications with Elastic Beanstalk
 
+* Steps:
 * 
 * 
 
@@ -148,7 +149,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTIwMDYxNCwtMTQ0MjA4NzgwMiwtND
-k5OTAxMTc2LC0xMjY4NTMzMDM0LDE0NDAwNzAzMjYsMTM1NTgy
-NDIxMCwtMTY0OTc3NzU2Niw5MzYwOTYxMDNdfQ==
+eyJoaXN0b3J5IjpbLTE5MjQzMTkzMDcsLTE0NDIwODc4MDIsLT
+Q5OTkwMTE3NiwtMTI2ODUzMzAzNCwxNDQwMDcwMzI2LDEzNTU4
+MjQyMTAsLTE2NDk3Nzc1NjYsOTM2MDk2MTAzXX0=
 -->
