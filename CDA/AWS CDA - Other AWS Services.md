@@ -141,7 +141,9 @@ Kinesis Analytics
 ### Deploy Applications with Elastic Beanstalk
 
 * Steps:
-* R
+* Resources : Version 1
+* Goto Elastic Beanstalk
+* Instead sample app
 * 
 
 
@@ -149,7 +151,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTg3NjMyNywtMTkyNDMxOTMwNywtMT
+eyJoaXN0b3J5IjpbMTAzMzQ2OTE5OSwtMTkyNDMxOTMwNywtMT
 Q0MjA4NzgwMiwtNDk5OTAxMTc2LC0xMjY4NTMzMDM0LDE0NDAw
 NzAzMjYsMTM1NTgyNDIxMCwtMTY0OTc3NzU2Niw5MzYwOTYxMD
 NdfQ==
