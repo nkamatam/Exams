@@ -118,7 +118,7 @@ Kinesis Analytics
 * What is Elastic Beanstalk
 	* It is a service that helps deploying and scaling web applications developed in many popular languages : Java, .NET, PHP, Node.js, Python, Ruby, Go and Docker onto widely used server platforms like Apache Tomcat, Nginx, Passenger and IIS. 
 	* Developers can focus on writing code and don't need to worry about any of the underlying infrastructure that is needed to run the applications.
-	* Throw the code in a ZIP file and  
+	* Throw the code in a ZIP file and Elastic Beanstalk will detect and configure the environment needed to deploy the application, Ex: Webservice, Autoscaling, RDS (or you can manage yourself). Similar to cloud formation (but CF is based on JSON) but Elastic Beanstalk will delpo 
 
 
 * 
@@ -128,7 +128,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Njg1NTIwMSwtMTQ0MjA4NzgwMiwtND
-k5OTAxMTc2LC0xMjY4NTMzMDM0LDE0NDAwNzAzMjYsMTM1NTgy
-NDIxMCwtMTY0OTc3NzU2Niw5MzYwOTYxMDNdfQ==
+eyJoaXN0b3J5IjpbLTU4Nzk0MzUxLC0xNDQyMDg3ODAyLC00OT
+k5MDExNzYsLTEyNjg1MzMwMzQsMTQ0MDA3MDMyNiwxMzU1ODI0
+MjEwLC0xNjQ5Nzc3NTY2LDkzNjA5NjEwM119
 -->
