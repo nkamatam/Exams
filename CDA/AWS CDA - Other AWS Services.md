@@ -105,7 +105,12 @@ Kinesis Analytics
 * Allows you to run sql queries on the data coming from Kinenis streams/fh. Way of analysis data using SQL type landuages across (Kinesis streams/Firehose)
 
 #### Exam Tips
-* Understand the difference between Kinesis Streams and Kinesis Firehose. Will be needed to find what service is used when.
+* Understand the difference between Kinesis Streams and Kinesis Firehose. Will be needed to find what service is used when. Ex: Shrads/Analysing data using Lambda
+* Understanding what is Kinesis Analytics.
+
+### Kinesis Lab
+* Will setup Kinesis Streams using Cloud Formation
+* Change the region to North Vergenia
 * 
 
 
@@ -116,7 +121,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MTY1MzYwLC00OTk5MDExNzYsLTEyNj
-g1MzMwMzQsMTQ0MDA3MDMyNiwxMzU1ODI0MjEwLC0xNjQ5Nzc3
-NTY2LDkzNjA5NjEwM119
+eyJoaXN0b3J5IjpbMTczOTk0NzI3MiwtNDk5OTAxMTc2LC0xMj
+Y4NTMzMDM0LDE0NDAwNzAzMjYsMTM1NTgyNDIxMCwtMTY0OTc3
+NzU2Niw5MzYwOTYxMDNdfQ==
 -->
