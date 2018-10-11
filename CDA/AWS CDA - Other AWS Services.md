@@ -153,15 +153,21 @@ Kinesis Analytics
 * You can goto the website link and see that the application is deployed well.
 * You can go and configure the environment created by Elastic Beanstalk (ex: Server type etc)
 * "Rolling updates and deployments" is an important exam topic and will be covered in the next lecture
-* "Mamaged 
+* "Mamaged Updates" are for updates for the underlyng platform (ex. PHP etc)
+
+### EBS Deplpoyment Policy
+* Elastic Beasntalk provides several options for processing deployments:
+	* All at once
+	* Rolling
+	* 
 
 
  
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTgxMjg3NCw4NDYxMTU1NTQsMTM1OT
-Q1NDE2Myw5MDA5NjQ0MjYsLTE5MjQzMTkzMDcsLTE0NDIwODc4
-MDIsLTQ5OTkwMTE3NiwtMTI2ODUzMzAzNCwxNDQwMDcwMzI2LD
-EzNTU4MjQyMTAsLTE2NDk3Nzc1NjYsOTM2MDk2MTAzXX0=
+eyJoaXN0b3J5IjpbLTE3NjAwNDgwODQsODQ2MTE1NTU0LDEzNT
+k0NTQxNjMsOTAwOTY0NDI2LC0xOTI0MzE5MzA3LC0xNDQyMDg3
+ODAyLC00OTk5MDExNzYsLTEyNjg1MzMwMzQsMTQ0MDA3MDMyNi
+wxMzU1ODI0MjEwLC0xNjQ5Nzc3NTY2LDkzNjA5NjEwM119
 -->
