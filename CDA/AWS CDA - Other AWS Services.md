@@ -169,7 +169,11 @@ Kinesis Analytics
 	* You will experience an outage while the deployment is taking place - not ideal for mission critical production systems
 	* If the update fails, you need to roll back the changes by re-deploying the original version to all your instances
 #### Rolling
-* 
+* Deplys the new version in batches
+* Each batch of instances is taken out of servi ce while the deployment takes place
+* Your environment capacity will be reduces by the number of instances in a batch while the deployment takes place
+* Not ideal for performance sensitive applications
+* If the update fails, you need to perform an additional rolling u
 #### Rolling with Additional Batch 
 #### All at once deployment policy
 
@@ -179,7 +183,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDY4MDE4MSwtMzc1NTAxNzQ2LDg0Nj
+eyJoaXN0b3J5IjpbLTk1NzE0Njc1MiwtMzc1NTAxNzQ2LDg0Nj
 ExNTU1NCwxMzU5NDU0MTYzLDkwMDk2NDQyNiwtMTkyNDMxOTMw
 NywtMTQ0MjA4NzgwMiwtNDk5OTAxMTc2LC0xMjY4NTMzMDM0LD
 E0NDAwNzAzMjYsMTM1NTgyNDIxMCwtMTY0OTc3NzU2Niw5MzYw
