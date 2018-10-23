@@ -163,14 +163,19 @@ Kinesis Analytics
 	* Immutable
 
 #### All at once deployment policy
+#### All at once deployment policy
+#### All at once deployment policy
+#### All at once deployment policy
+
 
 
  
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTUwMTc0Niw4NDYxMTU1NTQsMTM1OT
-Q1NDE2Myw5MDA5NjQ0MjYsLTE5MjQzMTkzMDcsLTE0NDIwODc4
-MDIsLTQ5OTkwMTE3NiwtMTI2ODUzMzAzNCwxNDQwMDcwMzI2LD
-EzNTU4MjQyMTAsLTE2NDk3Nzc1NjYsOTM2MDk2MTAzXX0=
+eyJoaXN0b3J5IjpbMTAxNDcxNTgxOCwtMzc1NTAxNzQ2LDg0Nj
+ExNTU1NCwxMzU5NDU0MTYzLDkwMDk2NDQyNiwtMTkyNDMxOTMw
+NywtMTQ0MjA4NzgwMiwtNDk5OTAxMTc2LC0xMjY4NTMzMDM0LD
+E0NDAwNzAzMjYsMTM1NTgyNDIxMCwtMTY0OTc3NzU2Niw5MzYw
+OTYxMDNdfQ==
 -->
