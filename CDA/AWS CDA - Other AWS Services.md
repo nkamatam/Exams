@@ -166,8 +166,10 @@ Kinesis Analytics
 * It updates
 	* Deploys the new versions to all instances simultaneously
 	* All iof your instances are out of service while the deployment take place
-	* 
+	* You will experience an outage while the deployment is taking place - not ideal for mission critical production systems
+	* If the update fails, you need to roll back the changes by re-deploying the original version to all your instances
 #### Rolling
+* 
 #### Rolling with Additional Batch 
 #### All at once deployment policy
 
@@ -177,7 +179,7 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzE4ODg4NywtMzc1NTAxNzQ2LDg0Nj
+eyJoaXN0b3J5IjpbMTIyNDY4MDE4MSwtMzc1NTAxNzQ2LDg0Nj
 ExNTU1NCwxMzU5NDU0MTYzLDkwMDk2NDQyNiwtMTkyNDMxOTMw
 NywtMTQ0MjA4NzgwMiwtNDk5OTAxMTc2LC0xMjY4NTMzMDM0LD
 E0NDAwNzAzMjYsMTM1NTgyNDIxMCwtMTY0OTc3NzU2Niw5MzYw
