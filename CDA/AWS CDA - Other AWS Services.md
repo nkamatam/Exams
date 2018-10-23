@@ -181,20 +181,18 @@ Kinesis Analytics
 * Maintains full capacity during the deployment process
 * If the update fails, you need to perform an additional rolling update to roll back the changes
 #### Immutable Deploymenrt Policy
+
 * Deploys the enw version to a fresh group of instances in theor own new autoscaling greoup
 * When the new instances pass their health checks, they are moved to your existing auto scaling group; and finally the old instances are terminated.
 * Maintains full capacity during the deployment policy
-* 
+* The impact of a failed update is far less and the rollback process requires only terminating the new auto scaling group
+* Preferred option for mission critical production systems
 
 
-
- 
-
-* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0MTUwNjQ1LC0zNzU1MDE3NDYsODQ2MT
-E1NTU0LDEzNTk0NTQxNjMsOTAwOTY0NDI2LC0xOTI0MzE5MzA3
-LC0xNDQyMDg3ODAyLC00OTk5MDExNzYsLTEyNjg1MzMwMzQsMT
-Q0MDA3MDMyNiwxMzU1ODI0MjEwLC0xNjQ5Nzc3NTY2LDkzNjA5
-NjEwM119
+eyJoaXN0b3J5IjpbODU4ODM4MTQyLDUwNDE1MDY0NSwtMzc1NT
+AxNzQ2LDg0NjExNTU1NCwxMzU5NDU0MTYzLDkwMDk2NDQyNiwt
+MTkyNDMxOTMwNywtMTQ0MjA4NzgwMiwtNDk5OTAxMTc2LC0xMj
+Y4NTMzMDM0LDE0NDAwNzAzMjYsMTM1NTgyNDIxMCwtMTY0OTc3
+NzU2Niw5MzYwOTYxMDNdfQ==
 -->
