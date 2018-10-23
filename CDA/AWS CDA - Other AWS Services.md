@@ -173,8 +173,12 @@ Kinesis Analytics
 * Each batch of instances is taken out of servi ce while the deployment takes place
 * Your environment capacity will be reduces by the number of instances in a batch while the deployment takes place
 * Not ideal for performance sensitive applications
-* If the update fails, you need to perform an additional rolling u
-#### Rolling with Additional Batch 
+* If the update fails, you need to perform an additional rolling update to roll back the changes
+
+#### Rolling with Additional Batch Policy
+* Launches an additional batch of instances
+* Deploys the new version in batches
+* Maintains 
 #### All at once deployment policy
 
 
@@ -183,9 +187,9 @@ Kinesis Analytics
 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NzE0Njc1MiwtMzc1NTAxNzQ2LDg0Nj
-ExNTU1NCwxMzU5NDU0MTYzLDkwMDk2NDQyNiwtMTkyNDMxOTMw
-NywtMTQ0MjA4NzgwMiwtNDk5OTAxMTc2LC0xMjY4NTMzMDM0LD
-E0NDAwNzAzMjYsMTM1NTgyNDIxMCwtMTY0OTc3NzU2Niw5MzYw
-OTYxMDNdfQ==
+eyJoaXN0b3J5IjpbLTE3NDgwMjY0MDEsLTM3NTUwMTc0Niw4ND
+YxMTU1NTQsMTM1OTQ1NDE2Myw5MDA5NjQ0MjYsLTE5MjQzMTkz
+MDcsLTE0NDIwODc4MDIsLTQ5OTkwMTE3NiwtMTI2ODUzMzAzNC
+wxNDQwMDcwMzI2LDEzNTU4MjQyMTAsLTE2NDk3Nzc1NjYsOTM2
+MDk2MTAzXX0=
 -->
