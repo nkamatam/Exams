@@ -122,7 +122,8 @@ IAM splash screen contains:
 		* Make a resercvation with Amazon. Contract can be 1 or 3 years in length. 
 		* May have to pay partly up front or entirely upfront. Price lower than hourly instances.
 	* Spot based: 
-		* Enables you to bid for whatever price you want for 
+		* Enables you to bid for whatever price you want for instance capacity. providing for even greater savings if your applications have flexible start and end times.
+		* Think of it as a stick market bid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODU4Mzk2NywtMTY5NDQ3NDI2M119
+eyJoaXN0b3J5IjpbMjEyMDYxODYyMiwtMTY5NDQ3NDI2M119
 -->
