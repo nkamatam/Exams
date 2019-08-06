@@ -114,10 +114,11 @@ IAM splash screen contains:
 	* EC2 has changed the economics of cloud computing. Pay for the capacity that you actually use. Pay by the hour, minute..
 	* EC2 provides developer the tools to build fault resiliant applications and isolate themselves from common failure scenarios.
 
-#### EC2 Options
-	* On demand: Allows you to pay a fixed  rate by the hour(or by the second) with no commitment.
+#### EC2 (pricing) Options
+	* On demand: 
+		* Allows you to pay a fixed  rate by the hour(or by the second) with no commitment.
+		* depends on the type of instance as well. Rate by the second presently only 
 	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODE2Mzk0OTIsLTE2OTQ0NzQyNjNdfQ
-==
+eyJoaXN0b3J5IjpbMTQ3NTUwNDYwNiwtMTY5NDQ3NDI2M119
 -->
