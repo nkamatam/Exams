@@ -109,7 +109,9 @@ IAM splash screen contains:
 * Its a webservice which provides resizeable compute capacity on the cloud
 * So its just VMs in the cloud
 * Reduces the time required to obtain and boot server instances, allowing you to quickly scale capacity, both up and down.
+* EC2 completely changed the industry. It was led by Amazon
+* EC2 has changed the economics of cloud computing. Pay for the capacity that you
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ0NzQyNjNdfQ==
+eyJoaXN0b3J5IjpbMTQxMjM1Mjk2MSwtMTY5NDQ3NDI2M119
 -->
