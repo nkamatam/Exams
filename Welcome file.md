@@ -119,7 +119,10 @@ IAM splash screen contains:
 		* Allows you to pay a fixed  rate by the hour(or by the second) with no commitment.
 		* depends on the type of instance as well. Rate by the second presently only available for linux instances. May soon be introduced for Win as well
 	* Reserved instancess:
-		* Make a resercvation with Amazon. Contract can be 1 or 3 years in length 
+		* Make a resercvation with Amazon. Contract can be 1 or 3 years in length. 
+		* May have to pay partly up front or entirely upfront. Price lower than hourly instances.
+		* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM5Mzg2NDE5LC0xNjk0NDc0MjYzXX0=
+eyJoaXN0b3J5IjpbLTE4NzYwNDM3OTIsLTE2OTQ0NzQyNjNdfQ
+==
 -->
