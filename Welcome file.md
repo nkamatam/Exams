@@ -118,11 +118,11 @@ IAM splash screen contains:
 	* On demand: 
 		* Allows you to pay a fixed  rate by the hour(or by the second) with no commitment.
 		* depends on the type of instance as well. Rate by the second presently only available for linux instances. May soon be introduced for Win as well
-	* Reserved instancess:
+	* Reserved instances:
 		* Make a resercvation with Amazon. Contract can be 1 or 3 years in length. 
 		* May have to pay partly up front or entirely upfront. Price lower than hourly instances.
-		* 
+	* Spot based: 
+		* Enables you to bid for whatever price you want for 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzYwNDM3OTIsLTE2OTQ0NzQyNjNdfQ
-==
+eyJoaXN0b3J5IjpbLTcyODU4Mzk2NywtMTY5NDQ3NDI2M119
 -->
