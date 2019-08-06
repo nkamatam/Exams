@@ -106,15 +106,15 @@ IAM splash screen contains:
 
 ## EC2 101
 * Elastic Compute Cloud
-* Its a webservice which provides resizeable compute capacity on the cloud
-* So its just VMs in the cloud
-* Reduces the time required to obtain and boot server instances, allowing you to quickly scale capacity, both up and down.
-* EC2 completely changed the industry. It was led by Amazon
-
-* EC2 has changed the economics of cloud computing. Pay for the capacity that you actually use. Pay by the hour, minute..
-* EC2 provides developer the tools to build fault resiliant applications and isolate themselves from common failure scenarios.
-* 
+* What is EC2
+	* Its a webservice which provides resizeable compute capacity on the cloud
+	* So its just VMs in the cloud
+	* Reduces the time required to obtain and boot server instances, allowing you to quickly scale capacity(CPU, RAM, etc..), both up and down.
+	* EC2 completely changed the industry. It was led by Amazon
+		* EC2 has changed the economics of cloud computing. Pay for the capacity that you actually use. Pay by the hour, minute..
+	* EC2 provides developer the tools to build fault resiliant applications and isolate themselves from common failure scenarios.
+	* 
 * 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxNTg1MzE2LC0xNjk0NDc0MjYzXX0=
+eyJoaXN0b3J5IjpbNzk2NDUwMzY1LC0xNjk0NDc0MjYzXX0=
 -->
