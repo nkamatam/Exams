@@ -123,10 +123,16 @@ IAM splash screen contains:
 		* May have to pay partly up front or entirely upfront. Price lower than hourly instances.
 	* Spot based: 
 		* Enables you to bid for whatever price you want for instance capacity. providing for even greater savings if your applications have flexible start and end times.
-		* Think of it as a stock market bid.
+		* Think of it as a stock market bid. Buy when the price reduces/sell when it increases.
 	* Dedicated Hosts:
 		* Physical EC2 server dedicated for your use.
-		* Can help you reduce costs by allowing you to use 
+		* Can help you reduce costs by allowing you to use your existing server bound software licences.
+		* Oracle, SQL servers, etc..
+
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTQ4MjY2NywtMTY5NDQ3NDI2M119
+eyJoaXN0b3J5IjpbMTIyODQwMDA3OSwtMTY5NDQ3NDI2M119
 -->
