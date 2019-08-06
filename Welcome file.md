@@ -111,11 +111,13 @@ IAM splash screen contains:
 	* So its just VMs in the cloud
 	* Reduces the time required to obtain and boot server instances, allowing you to quickly scale capacity(CPU, RAM, etc..), both up and down.
 	* EC2 completely changed the industry. It was led by Amazon
-		* EC2 has changed the economics of cloud computing. Pay for the capacity that you actually use. Pay by the hour, minute..
+	* EC2 has changed the economics of cloud computing. Pay for the capacity that you actually use. Pay by the hour, minute..
 	* EC2 provides developer the tools to build fault resiliant applications and isolate themselves from common failure scenarios.
 
-  ##### EC2 Options
-	* On demand 
+#### EC2 Options
+	* On demand: Allows you to pay a fixed  rate by the hour(or by the second) with no commitment.
+	* 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2OTkzNzM0LC0xNjk0NDc0MjYzXX0=
+eyJoaXN0b3J5IjpbLTEzODE2Mzk0OTIsLTE2OTQ0NzQyNjNdfQ
+==
 -->
